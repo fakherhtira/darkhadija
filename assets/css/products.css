@@ -1,0 +1,124 @@
+.products{
+    margin: 100px 0;
+    margin-top: 200px;
+    padding: 0 140px;
+}
+.products_header_left{
+    display: flex;
+    flex-direction: row;
+}
+.products_header_left_left{
+    display: flex;
+    flex-direction: column;
+}
+.products_header_left_left > img {
+    width: 120px;
+    height: 120px;
+    margin: 19px 8px;
+}
+.products_header_left_right{
+    margin: 8px;
+    width: 100%;
+}
+.products_header_left_right > img {
+    width: 670px;
+    height: 780px;
+}
+.products_header_right{
+    padding: 20px 80px !important;
+}
+.products_header_right > h2{
+    color: #6F080C;
+    font-size: 60px;
+    font-weight: 600;
+}
+.products_header_right_ref{
+    font-size: 18px;
+    font-weight: 500;
+    color: #D18F4E;
+}
+.products_header_right_parag{
+    color: #404343;
+    font-size: 21px;
+    font-weight: 500;
+}
+.products_header_right_price{
+    color: #6F080C;
+    font-size: 35px;
+    font-weight: 600;
+}
+.products_header_right_quantity{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+    padding: 8px;
+    margin-bottom: 20px;
+}
+.products_header_right_quantity_input {
+    border: 1px solid #D18F4E;
+    margin-right: 20px; 
+    width: 120px;
+    height: 75px;
+    padding: 20px 30px;
+}
+.products_header_right_quantity_input > input {
+    outline: none;
+    border: none;
+    font-size: 21px;
+    font-weight: 500;
+    color: #404343;
+    width: 60px !important;
+}
+.btn_style_quantity {
+    background-color: transparent;
+    color: #404343;
+    border:none;
+    border: 1px solid #D18F4E;
+    padding: 10px 40px;
+    font-size: 21px;
+    width: 220px;
+    height: 75px;
+}
+.description {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #404343;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-right: 10px;
+}
+.description > img {
+    width: 15px;
+    height: 15px;
+}
+.products_header_right_dropdown_description {
+    font-size: 21px;
+    color: #404343;
+    font-weight: 500;
+}
+.title_section{
+    margin: 50px 0px;
+}
+.shop_swiper_item{
+    width: 100%;
+}
+.shop_swiper_item > img {
+    width: 100%;
+}
+
+@media only screen and (max-width:767px ){
+    .products_header_right{
+        padding: 20px 20px !important;
+    }
+}
+@media only screen and (max-width:1200px ){
+    .products{
+        padding: 0 20px;
+    }
+    .title_section_center > h2{
+        font-size: 30px;
+    }
+}

@@ -1,0 +1,34 @@
+.gallery{
+    margin: 100px 0;
+    padding: 100px 140px;
+}
+.gallery_col{
+    padding: 0 !important;
+    width: 100%;
+}
+.gallery_img{
+    margin-left: 8px;
+    margin-right: 8px;
+    margin-bottom: 20px;
+}
+.gallery_img > img {
+    width: 100%;
+    height: auto;
+}
+.gallery_img > p {
+    width: 100%;
+    text-align: center;
+    color: #404343;
+    background-color: white;
+    font-size: 30px;
+    font-weight: 500;
+}
+@media only screen and (max-width:1450px){
+    .gallery{
+        margin: 100px 0;
+        padding: 100px 40px;
+    }
+    .gallery_img > p {
+        font-size: 25px;
+    }
+}
