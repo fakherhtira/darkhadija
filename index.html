@@ -5,10 +5,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Musee Khadija</title>
+    <!-- AOS STYLE -->
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- Style css -->
     <link rel="stylesheet" href="./assets/css/style.css">
+    <!-- Bootstrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous">
+    <!-- Swiper -->
     <link rel="stylesheet" href="./assets/css/swiper-bundle.min.css" />
+    <!--  -->
     <script src="./assets/js/script.js" async></script>
 </head>
 <body>
@@ -30,13 +35,13 @@
                                         <div class="title_section" >
                                             <p data-aos="fade-up" data-aos-duration="1000">View Our Gallery</p>
                                             <div class="title_section_style" >
-                                                <div class="title_section_line1" >
+                                                <div class="title_section_line1 title_section_line11" >
                                                     <hr data-aos="flip-right" data-aos-duration="1500">
                                                 </div>
                                                 <div class="title_section_center1" >
                                                     <h2 data-aos="fade-up" data-aos-duration="1500">Discover Our Museum</h2>
                                                 </div>
-                                                <div class="title_section_line1" >
+                                                <div class="title_section_line1 title_section_line12" >
                                                     <hr data-aos="flip-right" data-aos-duration="1500">
                                                 </div>
                                             </div>
@@ -54,17 +59,17 @@
                                         <div class="title_section" >
                                             <p data-aos="fade-up" data-aos-duration="1000">View Our Gallery</p>
                                             <div class="title_section_style" >
-                                                <div class="title_section_line1" >
+                                                <div class="title_section_line1 title_section_line11" >
                                                     <hr data-aos="flip-right" data-aos-duration="1500">
                                                 </div>
                                                 <div class="title_section_center1" >
                                                     <h2 data-aos="fade-up" data-aos-duration="1500">Discover Our Museum</h2>
                                                 </div>
-                                                <div class="title_section_line1" >
+                                                <div class="title_section_line1 title_section_line12" >
                                                     <hr data-aos="flip-right" data-aos-duration="1500">
                                                 </div>
                                             </div>
-                                             
+                                            <button class="btn_style" data-aos="fade-up" data-aos-duration="2000" >View more</button>
                                         </div>
                                     </div>
                                 </div>
@@ -78,13 +83,13 @@
                                         <div class="title_section" >
                                             <p data-aos="fade-up" data-aos-duration="1000">View Our Gallery</p>
                                             <div class="title_section_style" >
-                                                <div class="title_section_line1" >
+                                                <div class="title_section_line1 title_section_line11" >
                                                     <hr data-aos="flip-right" data-aos-duration="1500">
                                                 </div>
                                                 <div class="title_section_center1" >
                                                     <h2 data-aos="fade-up" data-aos-duration="1500">Discover Our Museum</h2>
                                                 </div>
-                                                <div class="title_section_line1" >
+                                                <div class="title_section_line1 title_section_line12" >
                                                     <hr data-aos="flip-right" data-aos-duration="1500">
                                                 </div>
                                             </div>
@@ -94,6 +99,8 @@
                                 </div>
                             <!-- Carousel item End -->
                         </div>
+                        
+                     
                         
                 </div>
                 <!-- If we need pagination -->
@@ -120,6 +127,11 @@
             <!-- Sup_Navbar Right item End  -->
             <!-- Sup_Navbar Right item Start  -->
                 <div class="sup_navbar_right_item" >
+                    <p class="sup_navbar_right_item_title" >Experience</p>
+                </div>
+            <!-- Sup_Navbar Right item End  -->
+            <!-- Sup_Navbar Right item Start  -->
+                <div class="sup_navbar_right_item" >
                     <p class="sup_navbar_right_item_title" >Become a member</p>
                 </div>
             <!-- Sup_Navbar Right item End  -->
@@ -140,7 +152,7 @@
     <div class="navbar_container" >
         <div class="navbar" >
             <div class="navbar_left" >
-                <img src="./assets/images/logo2.png" alt="logo" />
+                <img src="./assets/images/logo_dark.png" alt="logo" />
             </div>
             <div class="navbar_center" >
                 <ul class="navbar_center_links" >
@@ -154,27 +166,114 @@
                 </ul>
             </div>
             <div class="navbar_right" >
-                <img src="./assets/icons/loupe.png" alt="search" />
-                <img src="./assets/icons/shopping-bag.png" alt="cart" />
-                <img src="./assets/icons/user.png" alt="profile" />
+                <img src="./assets/icons/loupe.png" alt="search" class="navbar_right_img" />
+                <img src="./assets/icons/shopping-bag.png" alt="cart" class="navbar_right_img" />
+                <img src="./assets/icons/user.png" alt="profile" class="navbar_right_img" />
+                <img src="./assets/icons/menu2.png" src="menu" class="open_navbar" id="menu_box" />
+                <p id="cart_number" >0</p>
             </div>
         </div>
     </div>
 <!-- Navbar End -->      
 </div>
 <!-- Carousel End -->
+<!-- Drawer Start -->
+<div class="mobile_nav">
+    <div class="mobile_nav_content" >
+        <div class="drawer_header" >
+            <div class="drawer_left" >
+                <img src="./assets/icons/loupe3.png" alt="search" class="navbar_right_img" />
+                <img src="./assets/icons/shopping-bag3.png" alt="cart" class="navbar_right_img" />
+                <img src="./assets/icons/user3.png" alt="profile" class="navbar_right_img" />   
+                <p id="cart_number_mobile" >0</p>   
+            </div>
+            <div class="drawer_right">
+                <button id="close_drawer" >X</button>
+            </div>
+        </div>
+        <ul class="drawer_first_list">
+            <li>
+                <h2>
+                    <a href="./index.html" class="drawer_title" >
+                        <img src="./assets/images/logo_light.png" alt="home" />
+                    </a>
+                </h2>
+            </li>
+            <li>
+                <h2>
+                    <a href="#" class="drawer_title">
+                        Visit
+                    </a>
+                </h2>
+            </li>
+            <li>
+                <h2>
+                    <a href="#" class="drawer_title">
+                        Event
+                    </a>
+                </h2>
+            </li>
+            <li>
+                <h2>
+                    <a href="#" class="drawer_title">
+                        Collection
+                    </a>
+                </h2>
+            </li>
+            <li>
+                <h2>
+                    <a href="#" class="drawer_title">
+                        Learn
+                    </a>
+                </h2>
+            </li>
+            <li>
+                <h2>
+                    <a href="#" class="drawer_title">
+                        Shop
+                    </a>
+                </h2>
+            </li>
+            <li>
+                <h2>
+                    <a href="#" class="drawer_title">
+                        About Us
+                    </a>
+                </h2>
+            </li>
+            <li>
+                <h2>
+                    <a href="#" class="drawer_title">
+                        Contact
+                    </a>
+                </h2>
+            </li>
+        </ul>
+        
+        <div class="drawer_bottom">
+            <h6>Follow us</h6>
+            <div class="drawer_bottom_follow" >
+                <img src="./assets/icons/facebook2.png" alt="facebook" class="navbar_right_img" />
+                <img src="./assets/icons/google2.png" alt="google" class="navbar_right_img" />
+                <img src="./assets/icons/twitter2.png" alt="twitter" class="navbar_right_img" />
+            </div>
+            
+        </div>
+    </div>
+</div>
+<!-- Drawer End -->
 <!-- About Start -->
 <div class="about" >
     <div class="title_section" >
         <p>Get to know us</p>
         <div class="title_section_style" >
-            <div class="title_section_line" >
+            <div class="title_section_line title_section_line_sec21" >
                 <hr>
             </div>
             <div class="title_section_center" >
                 <h2>About the museum</h2>
             </div>
-            <div class="title_section_line" >
+            <div class="title_section_line title_section_line_sec22" >
                 <hr>
             </div>
         </div>
@@ -242,16 +341,16 @@
 <!-- Our blog End -->
 <!-- Gallery Start -->
 <div class="gallery" >
-    <div class="title_section" >
+    <div class="title_section title_section_gallery" >
         <p>View our gallery</p>
         <div class="title_section_style" >
-            <div class="title_section_line" >
+            <div class="title_section_line title_section_line_sec21" >
                 <hr>
             </div>
             <div class="title_section_center" >
                 <h2>View our scenes</h2>
             </div>
-            <div class="title_section_line" >
+            <div class="title_section_line title_section_line_sec22" >
                 <hr>
             </div>
         </div>
@@ -373,26 +472,26 @@
     <div class="title_section" >
         <p>History of the museum</p>
         <div class="title_section_style" >
-            <div class="title_section_line" >
+            <div class="title_section_line title_section_line_sec21" >
                 <hr>
             </div>
             <div class="title_section_center" >
                 <h2>View our history</h2>
             </div>
-            <div class="title_section_line" >
+            <div class="title_section_line title_section_line_sec22" >
                 <hr>
             </div>
         </div>
     </div>
     <div class="history_parag" >
-        <p>Originally DAR KHADIJA is a Traditional House acquired by a son to give it to
-            his mother Khadija. The Museum offers and stages the history of the city of
-            Hammamet and the Cap-Bon region through centuries and civilizations.</p>
+        <p>Originally DAR KHADIJA is a Traditional House acquired by a son to give it to 
+            his mother Khadija. The Museum offers   and stages the history of the city of 
+            Hammamet and the   Cap-Bon region    through    centuries and civilizations. </p>
     </div>
     <div class="history_content" >
         <div class="row" >
             <div class="col-md-6 col-sm-12 history_content_left" >
-                <div class="history_content_image" >
+                <div class="history_content_image history_content_image1" >
                     <img src="./assets/images/IMG_2496_1.png" alt="img" />
                 </div>
                 <div class="history_content_parag_date_left" >
@@ -401,7 +500,7 @@
                     <div class="history_content_parag_date_circle" >
                     </div>
                 </div>
-                <div class="history_content_parag" data-aos="fade-up" data-aos-duration="1000">
+                <div class="history_content_parag history_content_parag2" data-aos="fade-up" data-aos-duration="1000">
                     <p class="history_content_parag_action" >Moving in</p>
                     <p class="history_content_parag_title" >The opening</p>
                     <p class="history_content_parag_parag" >After the death of his mother, the son transformed The
@@ -439,7 +538,7 @@
                         and the Cap-Bon region through centuries and
                         civilizations.</p>
                 </div>
-                <div class="history_content_image" >
+                <div class="history_content_image history_content_image2" >
                     <img src="./assets/images/IMG_2184.png" alt="img" />
                 </div>
             </div>
@@ -456,7 +555,7 @@
         <!-- Slider main container Start-->
             <div class="swiper-container swiper-container-testimonial">
                 <!-- Additional required wrapper -->
-                <div class="swiper-wrapper">
+                <div class="swiper-wrapper swiper_wrapper_testimonial">
                 <!-- Slides -->
                 <div class="swiper-slide">
                     <!-- testimonial item Start -->
@@ -498,7 +597,6 @@
                 <!-- If we need navigation buttons -->
                 <div class="swiper-button-prev swiper-button-prev-testimonial"></div>
                 <div class="swiper-button-next swiper-button-next-testimonial"></div>
-            
                 <!-- If we need scrollbar -->
                 <!-- <div class="swiper-scrollbar"></div> -->
             </div>
@@ -520,13 +618,13 @@
     <div class="title_section" >
         <p>Museum news</p>
         <div class="title_section_style" >
-            <div class="title_section_line" >
+            <div class="title_section_line title_section_line_sec21" >
                 <hr>
             </div>
             <div class="title_section_center" >
                 <h2>Latest blog posts</h2>
             </div>
-            <div class="title_section_line" >
+            <div class="title_section_line title_section_line_sec22" >
                 <hr>
             </div>
         </div>
@@ -593,13 +691,13 @@
     <div class="title_section" >
         <p>Our products</p>
         <div class="title_section_style">
-            <div class="title_section_line" >
+            <div class="title_section_line title_section_line_sec21" >
                 <hr>
             </div>
             <div class="title_section_center" >
                 <h2>MUSEUM SHOP</h2>
             </div>
-            <div class="title_section_line" >
+            <div class="title_section_line title_section_line_sec22" >
                 <hr>
             </div>
         </div>
@@ -626,7 +724,7 @@
                     </div>
                     <div class="swiper-slide">
                         <!-- items -->
-                            <div class="shop_swiper_item" >
+                            <div class="shop_swiper_item_img" >
                                 <img src="./assets/images/Poster_Mockup_2.png" alt="pillow"/>
                                 <p class="shop_swiper_item_title" >Poster Frame</p>
                                 <p class="shop_swiper_item_price" >40<sup>DT</sup></p>
@@ -635,7 +733,7 @@
                     </div>
                     <div class="swiper-slide">
                         <!-- items -->
-                            <div class="shop_swiper_item" >
+                            <div class="shop_swiper_item_img" >
                                 <img src="./assets/images/phone-casing-2.png" alt="pillow"/>
                                 <p class="shop_swiper_item_title" >Phone Case</p>
                                 <p class="shop_swiper_item_price" >40<sup>DT</sup></p>
@@ -644,7 +742,7 @@
                     </div>
                     <div class="swiper-slide">
                         <!-- items -->
-                            <div class="shop_swiper_item" >
+                            <div class="shop_swiper_item_img" >
                                 <img src="./assets/images/Small_Canvas_Tote_Bag_MockUp.png" alt="pillow"/>
                                 <p class="shop_swiper_item_title" >Tote Bag</p>
                                 <p class="shop_swiper_item_price" >40<sup>DT</sup></p>
@@ -653,7 +751,7 @@
                     </div>
                     <div class="swiper-slide">
                         <!-- items -->
-                            <div class="shop_swiper_item" >
+                            <div class="shop_swiper_item_img" >
                                 <img src="./assets/images/Free_A5_Desk_Calendar_Mockup_1.png" alt="pillow"/>
                                 <p class="shop_swiper_item_title" >Calendar</p>
                                 <p class="shop_swiper_item_price" >40<sup>DT</sup></p>
@@ -662,7 +760,7 @@
                     </div>
                 </div>
                 <!-- If we need pagination -->
-                <div class="swiper-pagination "></div>
+                <div class="swiper-pagination swiper_pagination_shop "></div>
             
                 <!-- If we need navigation buttons -->
                 <!-- 
@@ -699,9 +797,9 @@
     <div class="footer" >
         <div class="row">
             <div class="col-lg-3 col-md-6 col-sm-12 footer_section footer_1" >
-                <img src="./assets//images/logo2.png" alt="logo" />
-                <p>Address: Mohamed BOUSLAMA<br> street 8050 Hammamet<br> Medina,Tunisia</p>
-                <p>Phone: +216 29 315 319</p>
+                <img src="./assets//images/logo_dark.png" alt="logo" />
+                <p>Address: Mohamed BOUSLAMA street 8050 Hammamet Medina,Tunisia</p>
+                <p>Phone:   +216 29 315 319</p>
             </div>
             <div class="col-lg-3 col-md-6 col-sm-12 footer_section footer_2" >
                 <h2>Museum info</h2>
@@ -727,7 +825,7 @@
                     <img src="./assets/icons/facebook.png" alt="facebook" />
                     <img src="./assets/icons/instagram.png" alt="instagram" />
                     <img src="./assets/icons/twitter.png" alt="twitter" />
-                    <img src="./assets/images/ID15-156510_white-patreon-logo.png" alt="pateron" />
+                    <img src="./assets/images/ID15-156510_white-patreon-logo.png" alt="patreon" />
                 </div>
             </div>
         </div>
@@ -741,6 +839,7 @@
 <script src="./assets/js/swiper-bundle.min.js"></script>
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 <script>
+    // INIT AOS
     AOS.init();
     var swiper3 = new Swiper(".mySwiper", {
         loop: true,
