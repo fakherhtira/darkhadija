@@ -17,3 +17,30 @@ close_drawer.addEventListener('click', function(){
     menu = 'close'
 })
 
+console.log('Hello Begin')
+  var btn = document.getElementsByClassName('btn')
+  if(btn !== undefined){
+    for(var i = 0;i<btn.length;i++){
+        btn[i].addEventListener('mouseenter', e => {
+        e.target.style.border = 'none'
+        setTimeout(function() {
+        e.target.style.border = '1px solid #D18F4E';
+        }, 1500);
+    });
+  }
+  }
+  
+  var btn_white = document.getElementsByClassName('btn_white')
+  if(btn_white !== undefined){
+    for(var i = 0;i<btn_white.length;i++){
+        btn_white[i].addEventListener('mouseenter', e => {
+        e.target.style.border = 'none'
+        setTimeout(function() {
+        e.target.style.border = '1px solid white';
+        }, 1500);
+    });
+  }
+  }
+  
+  
+  console.log('Hello End')

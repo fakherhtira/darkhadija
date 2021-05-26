@@ -19,22 +19,27 @@
     <div class="sup_navbar_right" >
         <!-- Sup_Navbar Right item Start  -->
             <div class="sup_navbar_right_item" >
-                <p class="sup_navbar_right_item_title" >Buy tickets</p>
+                <a href="#" class="sup_navbar_right_item_title" >Buy tickets</a>
             </div>
         <!-- Sup_Navbar Right item End  -->
         <!-- Sup_Navbar Right item Start  -->
             <div class="sup_navbar_right_item" >
-                <p class="sup_navbar_right_item_title" >Become a member</p>
+                <a href="#" class="sup_navbar_right_item_title" >Experience</a>
             </div>
         <!-- Sup_Navbar Right item End  -->
         <!-- Sup_Navbar Right item Start  -->
             <div class="sup_navbar_right_item" >
-                <p class="sup_navbar_right_item_title" >Make a donation</p>
+                <a href="#" class="sup_navbar_right_item_title" >Become a member</a>
             </div>
         <!-- Sup_Navbar Right item End  -->
         <!-- Sup_Navbar Right item Start  -->
             <div class="sup_navbar_right_item" >
-                <p class="sup_navbar_right_item_title" >EN</p>
+                <a href="#" class="sup_navbar_right_item_title" >Make a donation</a>
+            </div>
+        <!-- Sup_Navbar Right item End  -->
+        <!-- Sup_Navbar Right item Start  -->
+            <div class="sup_navbar_right_item" >
+                <a href="#" class="sup_navbar_right_item_title" >EN</a>
             </div>
         <!-- Sup_Navbar Right item End  -->
     </div>
@@ -44,24 +49,82 @@
 <div class="navbar_container" >
     <div class="navbar" >
         <div class="navbar_left" >
-            <img src="./assets/images/logo_dark.png" alt="logo" />
+            <img src="./assets/images/logo_light.png" alt="logo" />
         </div>
         <div class="navbar_center" >
             <ul class="navbar_center_links" >
-                <li>Visit</li>
-                <li>Event</li>
-                <li>Collection</li>
-                <li>Learn</li>
-                <li>Shop</li>
-                <li>About us</li>
-                <li>Contact</li>
+                <li class="navbar_center_links_visit_menu_container">
+                    <a href="#">
+                        Visit
+                    </a>
+                    <ul class="navbar_center_links_visit_menu" >
+                        <li>
+                            <a href="#" >
+                                Plan your visit
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" >
+                                Virtual tour
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#">
+                        Event
+                    </a>
+                </li>
+                <li class="navbar_center_links_collection_menu_container">
+                    <a href="#" >
+                        Collection
+                    </a>
+                    <ul class="navbar_center_links_collection_menu" >
+                        <li>
+                            <a href="#" >
+                                Scenes
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" >
+                                Blog
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" >
+                                Gallery
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#" >
+                        Learn
+                    </a>
+                </li>
+                <li>
+                    <a href="#" >
+                        Shop
+                    </a>
+                </li>
+                <li>
+                    <a href="#" >
+                        About us
+                    </a>
+                </li>
+                <li>
+                    <a href="#" >
+                        Contact
+                    </a>
+                </li>
             </ul>
         </div>
         <div class="navbar_right" >
-            <img src="./assets/icons/loupe.png" alt="search" class="navbar_right_img" />
-            <img src="./assets/icons/shopping-bag.png" alt="cart" class="navbar_right_img" />
-            <img src="./assets/icons/user.png" alt="profile" class="navbar_right_img" />
-            <img src="./assets/icons/menu2.png" src="menu" class="open_navbar" id="menu_box" />
+            <img src="./assets/icons/loupe3.png" alt="search" class="navbar_right_img" />
+            <img src="./assets/icons/shopping-bag3.png" alt="cart" class="navbar_right_img" />
+            <img src="./assets/icons/user3.png" alt="profile" class="navbar_right_img" />
+            <img src="./assets/icons/menu.png" src="menu" class="open_navbar" id="menu_box" />
+            <p id="cart_number" >0</p>
         </div>
     </div>
 </div>
@@ -73,7 +136,8 @@
             <div class="drawer_left" >
                 <img src="./assets/icons/loupe3.png" alt="search" class="navbar_right_img" />
                 <img src="./assets/icons/shopping-bag3.png" alt="cart" class="navbar_right_img" />
-                <img src="./assets/icons/user3.png" alt="profile" class="navbar_right_img" />      
+                <img src="./assets/icons/user3.png" alt="profile" class="navbar_right_img" />   
+                <p id="cart_number_mobile" >0</p>   
             </div>
             <div class="drawer_right">
                 <button id="close_drawer" >X</button>
@@ -83,15 +147,31 @@
             <li>
                 <h2>
                     <a href="./index.html" class="drawer_title" >
-                        <img src="./assets/images/logo_light.png" alt="home" />
+                        <img width="20px"  src="./assets/images/logo_light.png" alt="home" />
                     </a>
                 </h2>
             </li>
-            <li>
+            <li class="visit_sub_menu">
                 <h2>
                     <a href="#" class="drawer_title">
                         Visit
                     </a>
+                    <ul class="sub_drawer" >
+                        <li>
+                            <h4>
+                                <a href="#" class="drawer_title2" > 
+                                    Plan your visit
+                                </a>
+                            </h4>
+                        </li>
+                        <li>
+                            <h4>
+                                <a href="#" class="drawer_title2" > 
+                                    Virtual tour
+                                </a>
+                            </h4>
+                        </li>
+                    </ul>
                 </h2>
             </li>
             <li>
@@ -101,11 +181,34 @@
                     </a>
                 </h2>
             </li>
-            <li>
+            <li class="collection_sub_menu">
                 <h2>
                     <a href="#" class="drawer_title">
                         Collection
                     </a>
+                    <ul class="sub_drawer" >
+                        <li>
+                            <h4>
+                                <a href="#" class="drawer_title2" > 
+                                    Scenes
+                                </a>
+                            </h4>
+                        </li>
+                        <li>
+                            <h4>
+                                <a href="#" class="drawer_title2" > 
+                                    Blog
+                                </a>
+                            </h4>
+                        </li>
+                        <li>
+                            <h4>
+                                <a href="#" class="drawer_title2" > 
+                                    Gallery
+                                </a>
+                            </h4>
+                        </li>
+                    </ul>
                 </h2>
             </li>
             <li>
@@ -137,7 +240,13 @@
                 </h2>
             </li>
         </ul>
-        
+        <div class="drawer_before_bottom" >
+            <a href="#" >Buy Tickets</a>
+            <a href="#" >Experience</a>
+            <a href="#" >Become a member</a>
+            <a href="#" >Make a donation</a>
+            <a href="#" >EN</a>
+        </div>
         <div class="drawer_bottom">
             <h6>Follow us</h6>
             <div class="drawer_bottom_follow" >
@@ -153,11 +262,21 @@
     <div class="login" >
         <div class="row" >
             <div class="col-md-4 col-sm-12 right_signin right_signup" data-aos="fade-right" data-aos-duration="2000" >
-                <div class="right_signin_content" >
-                    <h2 data-aos="fade-up" data-aos-duration="3000">New Here?</h2>
-                    <p data-aos="fade-up" data-aos-duration="3500">Sign up and join us to get the<br>chance to see our museum</p>
-                    <button class="btn_style" data-aos="fade-up" data-aos-duration="4000" >Sign Up</button>
-                </div>
+                <form>
+                    <div class="right_signin_content" >
+                        <h2 data-aos="fade-up" data-aos-duration="3000">New Here?</h2>
+                        <p data-aos="fade-up" data-aos-duration="3500">Sign up and join us to get the<br>chance to see our museum</p>
+                        <button type="submit" class='btn-cont' >
+                            <div class='btn_white' data-aos="fade-up" data-aos-duration="4000">
+                                Sign In
+                                <span class='line-1'></span>
+                                <span class='line-2'></span>
+                                <span class='line-3'></span>
+                                <span class='line-4'></span>
+                            </div>
+                        </button>
+                    </div>
+                </form>
             </div>
             <div class="col-md-8 col-sm-12 left_signin" data-aos="fade-left" data-aos-duration="2000" >
                 <h2>Sign Up</h2>
@@ -174,7 +293,15 @@
                         <input name="email" type="email" placeholder="E-mail" />
                         <input name="password" type="password" placeholder="Password" />
                         <input name="confirmPassword" type="password" placeholder="Confirm Password" />
-                        <button type="submit" class="btn_style" >Sign UP</button>
+                        <button type="submit" class='btn-cont btn_sign_in' >
+                            <div class='btn' data-aos="fade-up" data-aos-duration="4000">
+                                Sign Up
+                                <span class='line-1'></span>
+                                <span class='line-2'></span>
+                                <span class='line-3'></span>
+                                <span class='line-4'></span>
+                            </div>
+                        </button>
                     </form>
                 </div>
             </div>

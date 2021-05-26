@@ -1,0 +1,16 @@
+.title_section_center1 > h2{
+    color: #6F080C ;
+}
+.title_section_line1 > hr{
+    border: 1px solid #6F080C;
+}
+.title_section{
+    padding-top: 0;
+}
+.event_s{
+    margin: 0 !important;
+    margin-top: -100px !important;
+}
+.blog_1{
+    cursor: pointer;
+}

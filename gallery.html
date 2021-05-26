@@ -20,22 +20,27 @@
     <div class="sup_navbar_right" >
         <!-- Sup_Navbar Right item Start  -->
             <div class="sup_navbar_right_item" >
-                <p class="sup_navbar_right_item_title" >Buy tickets</p>
+                <a href="#" class="sup_navbar_right_item_title" >Buy tickets</a>
             </div>
         <!-- Sup_Navbar Right item End  -->
         <!-- Sup_Navbar Right item Start  -->
             <div class="sup_navbar_right_item" >
-                <p class="sup_navbar_right_item_title" >Become a member</p>
+                <a href="#" class="sup_navbar_right_item_title" >Experience</a>
             </div>
         <!-- Sup_Navbar Right item End  -->
         <!-- Sup_Navbar Right item Start  -->
             <div class="sup_navbar_right_item" >
-                <p class="sup_navbar_right_item_title" >Make a donation</p>
+                <a href="#" class="sup_navbar_right_item_title" >Become a member</a>
             </div>
         <!-- Sup_Navbar Right item End  -->
         <!-- Sup_Navbar Right item Start  -->
             <div class="sup_navbar_right_item" >
-                <p class="sup_navbar_right_item_title" >EN</p>
+                <a href="#" class="sup_navbar_right_item_title" >Make a donation</a>
+            </div>
+        <!-- Sup_Navbar Right item End  -->
+        <!-- Sup_Navbar Right item Start  -->
+            <div class="sup_navbar_right_item" >
+                <a href="#" class="sup_navbar_right_item_title" >EN</a>
             </div>
         <!-- Sup_Navbar Right item End  -->
     </div>
@@ -45,24 +50,81 @@
 <div class="navbar_container" >
     <div class="navbar" >
         <div class="navbar_left" >
-            <img src="./assets/images/logo_dark.png" alt="logo" />
+            <img src="./assets/images/logo_light.png" alt="logo" />
         </div>
         <div class="navbar_center" >
             <ul class="navbar_center_links" >
-                <li>Visit</li>
-                <li>Event</li>
-                <li>Collection</li>
-                <li>Learn</li>
-                <li>Shop</li>
-                <li>About us</li>
-                <li>Contact</li>
+                <li class="navbar_center_links_visit_menu_container">
+                    <a href="#">
+                        Visit
+                    </a>
+                    <ul class="navbar_center_links_visit_menu" >
+                        <li>
+                            <a href="#" >
+                                Plan your visit
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" >
+                                Virtual tour
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#">
+                        Event
+                    </a>
+                </li>
+                <li class="navbar_center_links_collection_menu_container">
+                    <a href="#" >
+                        Collection
+                    </a>
+                    <ul class="navbar_center_links_collection_menu" >
+                        <li>
+                            <a href="#" >
+                                Scenes
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" >
+                                Blog
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" >
+                                Gallery
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#" >
+                        Learn
+                    </a>
+                </li>
+                <li>
+                    <a href="#" style="border-bottom: 2px solid #c8693a !important;">
+                        Shop
+                    </a>
+                </li>
+                <li>
+                    <a href="#" >
+                        About us
+                    </a>
+                </li>
+                <li>
+                    <a href="#" >
+                        Contact
+                    </a>
+                </li>
             </ul>
         </div>
         <div class="navbar_right" >
-            <img src="./assets/icons/loupe.png" alt="search" class="navbar_right_img" />
-            <img src="./assets/icons/shopping-bag.png" alt="cart" class="navbar_right_img" />
-            <img src="./assets/icons/user.png" alt="profile" class="navbar_right_img" />
-            <img src="./assets/icons/menu2.png" src="menu" class="open_navbar" id="menu_box" />
+            <img src="./assets/icons/loupe3.png" alt="search" class="navbar_right_img" />
+            <img src="./assets/icons/shopping-bag3.png" alt="cart" class="navbar_right_img" />
+            <img src="./assets/icons/user3.png" alt="profile" class="navbar_right_img" />
+            <img src="./assets/icons/menu.png" src="menu" class="open_navbar" id="menu_box" />
             <p id="cart_number" >0</p>
         </div>
     </div>
@@ -76,7 +138,7 @@
                 <img src="./assets/icons/loupe3.png" alt="search" class="navbar_right_img" />
                 <img src="./assets/icons/shopping-bag3.png" alt="cart" class="navbar_right_img" />
                 <img src="./assets/icons/user3.png" alt="profile" class="navbar_right_img" />   
-                <p id="cart_number_mobile" >0</p>      
+                <p id="cart_number_mobile" >0</p>   
             </div>
             <div class="drawer_right">
                 <button id="close_drawer" >X</button>
@@ -86,15 +148,31 @@
             <li>
                 <h2>
                     <a href="./index.html" class="drawer_title" >
-                        <img src="./assets/images/logo_light.png" alt="home" />
+                        <img width="20px"  src="./assets/images/logo_light.png" alt="home" />
                     </a>
                 </h2>
             </li>
-            <li>
+            <li class="visit_sub_menu">
                 <h2>
                     <a href="#" class="drawer_title">
                         Visit
                     </a>
+                    <ul class="sub_drawer" >
+                        <li>
+                            <h4>
+                                <a href="#" class="drawer_title2" > 
+                                    Plan your visit
+                                </a>
+                            </h4>
+                        </li>
+                        <li>
+                            <h4>
+                                <a href="#" class="drawer_title2" > 
+                                    Virtual tour
+                                </a>
+                            </h4>
+                        </li>
+                    </ul>
                 </h2>
             </li>
             <li>
@@ -104,11 +182,34 @@
                     </a>
                 </h2>
             </li>
-            <li>
+            <li class="collection_sub_menu">
                 <h2>
                     <a href="#" class="drawer_title">
                         Collection
                     </a>
+                    <ul class="sub_drawer" >
+                        <li>
+                            <h4>
+                                <a href="#" class="drawer_title2" > 
+                                    Scenes
+                                </a>
+                            </h4>
+                        </li>
+                        <li>
+                            <h4>
+                                <a href="#" class="drawer_title2" > 
+                                    Blog
+                                </a>
+                            </h4>
+                        </li>
+                        <li>
+                            <h4>
+                                <a href="#" class="drawer_title2" > 
+                                    Gallery
+                                </a>
+                            </h4>
+                        </li>
+                    </ul>
                 </h2>
             </li>
             <li>
@@ -120,7 +221,7 @@
             </li>
             <li>
                 <h2>
-                    <a href="#" class="drawer_title">
+                    <a href="#" class="drawer_title" style="border-bottom: 2px solid #c8693a !important;">
                         Shop
                     </a>
                 </h2>
@@ -140,7 +241,13 @@
                 </h2>
             </li>
         </ul>
-        
+        <div class="drawer_before_bottom" >
+            <a href="#" >Buy Tickets</a>
+            <a href="#" >Experience</a>
+            <a href="#" >Become a member</a>
+            <a href="#" >Make a donation</a>
+            <a href="#" >EN</a>
+        </div>
         <div class="drawer_bottom">
             <h6>Follow us</h6>
             <div class="drawer_bottom_follow" >
@@ -154,109 +261,123 @@
 </div>
 <!-- Drawer End -->
 <div class="gallery" >
+    <div class="title_section" style="margin-bottom: 50px;" >
+        <p>Get to know us</p>
+        <div class="title_section_style" >
+            <div class="title_section_line title_section_line_sec21" >
+                <hr>
+            </div>
+            <div class="title_section_center" >
+                <h2>VIEW OUR GALLERY</h2>
+            </div>
+            <div class="title_section_line title_section_line_sec22" >
+                <hr>
+            </div>
+        </div>
+    </div> 
     <div class="row">
         <div class="col-lg-3 col-md-6 col-sm-12 gallery_col" >
             <div class="gallery_img" data-aos="fade-down-right">
-                 <img src="./assets/gallery/IMG_2223_1.png" alt="img" />
-                 <p>A punic port</p>
+                 <img class="gallery_image" src="./assets/gallery/IMG_2223_1.png" alt="img" />
+                 <p class="gallery_parag">A punic port</p>
             </div>
             <div class="gallery_img" data-aos="fade-down-right">
-                 <img src="./assets/gallery/IMG_2315.png" alt="img" />
-                 <p>The point of hammamet</p>
+                 <img class="gallery_image" src="./assets/gallery/IMG_2315.png" alt="img" />
+                 <p class="gallery_parag" >The point of hammamet</p>
             </div>
             <div class="gallery_img" data-aos="fade-down-right">
-                 <img src="./assets/gallery/IMG_2395.png" alt="img" />
-                 <p>Hammamet, city of jasmines</p>
+                 <img class="gallery_image" src="./assets/gallery/IMG_2395.png" alt="img" />
+                 <p class="gallery_parag" >Hammamet, city of jasmines</p>
             </div>
             <div class="gallery_img" data-aos="fade-down-right">
-                 <img src="./assets/gallery/ID2.png" alt="img" />
-                 <p>The villa sebastian</p>
+                 <img class="gallery_image" src="./assets/gallery/ID2.png" alt="img" />
+                 <p class="gallery_parag" >The villa sebastian</p>
             </div>
             <div class="gallery_img" data-aos="fade-down-right">
-                 <img src="./assets/gallery/IMG_2340.png" alt="img" />
-                 <p>The traditional fishing</p>
+                 <img class="gallery_image" src="./assets/gallery/IMG_2340.png" alt="img" />
+                 <p class="gallery_parag" >The traditional fishing</p>
             </div>
             <div class="gallery_img" data-aos="fade-down-right">
-                 <img src="./assets/gallery/IMG_2350_1.png" alt="img" />
-                 <p>The water of the orange flower</p>
+                 <img class="gallery_image" src="./assets/gallery/IMG_2350_1.png" alt="img" />
+                 <p class="gallery_parag" >The water of the orange flower</p>
             </div>
         </div>
         <div class="col-lg-3 col-md-6 col-sm-12 gallery_col" >
             <div class="gallery_img" data-aos="fade-down-left">
-                <img src="./assets/gallery/IMG_2197.png" alt="img" />
-                <p>The turks in hammamet</p>
+                <img class="gallery_image" src="./assets/gallery/IMG_2197.png" alt="img" />
+                <p class="gallery_parag" >The turks in hammamet</p>
             </div>
             <div class="gallery_img" data-aos="fade-down-left">
-                <img src="./assets/gallery/IMG_2329.png" alt="img" />
-                <p>The traditional wedding</p>
+                <img class="gallery_image" src="./assets/gallery/IMG_2329.png" alt="img" />
+                <p class="gallery_parag" >The traditional wedding</p>
             </div>
             <div class="gallery_img" data-aos="fade-down-left">
-                <img src="./assets/gallery/hero2.png" alt="img" />
-                <p>The family meal</p>
+                <img class="gallery_image" src="./assets/gallery/hero2.png" alt="img" />
+                <p class="gallery_parag" >The family meal</p>
             </div>
             <div class="gallery_img" data-aos="fade-down-left">
-                <img src="./assets/gallery/ID61142212_446690116133349_527.png" alt="img" />
-                <p>Traditional art</p>
+                <img class="gallery_image" src="./assets/gallery/ID61142212_446690116133349_527.png" alt="img" />
+                <p class="gallery_parag" >Traditional art</p>
             </div>
             <div class="gallery_img" data-aos="fade-down-left">
-                <img src="./assets/gallery/IMG_2382.png" alt="img" />
-                <p>Well, Majeuls and drinking water</p>
+                <img class="gallery_image" src="./assets/gallery/IMG_2382.png" alt="img" />
+                <p class="gallery_parag" >Well, Majeuls and drinking water</p>
             </div>
             <div class="gallery_img" data-aos="fade-down-left">
-                <img src="./assets/gallery/IMG_2448.png" alt="img" />
-                <p>Hammamet, city of orchards</p>
+                <img class="gallery_image" src="./assets/gallery/IMG_2448.png" alt="img" />
+                <p class="gallery_parag" >Hammamet, city of orchards</p>
             </div>
         </div>
         <div class="col-lg-3 col-md-6 col-sm-12 gallery_col" >
             <div class="gallery_img" data-aos="fade-down-right">
-                <img src="./assets/gallery/IMG_2214.png" alt="img" />
-                <p>The inhabitants of pupput</p>
+                <img class="gallery_image" src="./assets/gallery/IMG_2214.png" alt="img" />
+                <p class="gallery_parag" >The inhabitants of pupput</p>
             </div>
             <div class="gallery_img" data-aos="fade-down-right">
-                <img src="./assets/gallery/IMG_2365.png" alt="img" />
-                <p>the economic life in the medina</p>
+                <img class="gallery_image" src="./assets/gallery/IMG_2365.png" alt="img" />
+                <p class="gallery_parag" >the economic life in the medina</p>
             </div>
             <div class="gallery_img" data-aos="fade-down-right">
-                <img src="./assets/gallery/IMG_2195.png" alt="img" />
-                <p>The fort of hammamet</p>
+                <img class="gallery_image" src="./assets/gallery/IMG_2195.png" alt="img" />
+                <p class="gallery_parag" >The fort of hammamet</p>
             </div>
             <div class="gallery_img" data-aos="fade-down-right">
-                <img src="./assets/gallery/IMG_2251.png" alt="img" />
-                <p>The battle of hammamet</p>
+                <img class="gallery_image" src="./assets/gallery/IMG_2251.png" alt="img" />
+                <p class="gallery_parag" >The battle of hammamet</p>
             </div>
             <div class="gallery_img" data-aos="fade-down-right">
-                <img src="./assets/gallery/IMG_2361.png" alt="img" />
-                <p>The economic life in the medina</p>
+                <img class="gallery_image" src="./assets/gallery/IMG_2361.png" alt="img" />
+                <p class="gallery_parag" >The economic life in the medina</p>
             </div>
             <div class="gallery_img" data-aos="fade-down-right">
-                <img src="./assets/gallery/IMG_2276.png" alt="img" />
-                <p>The second world war</p>
+                <img class="gallery_image" src="./assets/gallery/IMG_2276.png" alt="img" />
+                <p class="gallery_parag" >The second world war</p>
             </div>
         </div>
         <div class="col-lg-3 col-md-6 col-sm-12 gallery_col" >
             <div class="gallery_img" data-aos="fade-down-left">
-                <img src="./assets/gallery/IMG_2311.png" alt="img" />
-                <p>The weavers of hammamet</p>
+                <img class="gallery_image" src="./assets/gallery/IMG_2311.png" alt="img" />
+                <p class="gallery_parag" >The weavers of hammamet</p>
             </div>
             <div class="gallery_img" data-aos="fade-down-left">
-                <img src="./assets/gallery/IMG_2283.png" alt="img" />
-                <p>The open-air theater of hammamet</p>
+                <img class="gallery_image" src="./assets/gallery/IMG_2283.png" alt="img" />
+                <p class="gallery_parag" >The open-air theater of hammamet</p>
             </div>
             <div class="gallery_img" data-aos="fade-down-left">
-                <img src="./assets/gallery/IMG_2230.png" alt="img" />
-                <p>The inhabitants of pupput</p>
+                <img class="gallery_image" src="./assets/gallery/IMG_2230.png" alt="img" />
+                <p class="gallery_parag" >The inhabitants of pupput</p>
             </div>
             <div class="gallery_img" data-aos="fade-down-left">
-                <img src="./assets/gallery/IMG_2261.png" alt="img" />
-                <p>The Knights of malta in hammamet</p>
+                <img class="gallery_image" src="./assets/gallery/IMG_2261.png" alt="img" />
+                <p class="gallery_parag" >The Knights of malta in hammamet</p>
             </div>
             <div class="gallery_img" data-aos="fade-down-left">
-                <img src="./assets/gallery/IMG_2369.png" alt="img" />
-                <p>The economic life in the medina</p>
+                <img class="gallery_image" src="./assets/gallery/IMG_2369.png" alt="img" />
+                <p class="gallery_parag" >The economic life in the medina</p>
             </div>
             <div class="gallery_img" data-aos="fade-down-left">
-                <img src="./assets/gallery/IMG_2240.png" alt="img" />
-                <p>Traditional Hammamet clothes</p>
+                <img class="gallery_image" src="./assets/gallery/IMG_2240.png" alt="img" />
+                <p class="gallery_parag" >Traditional Hammamet clothes</p>
             </div>
         </div>
     </div>

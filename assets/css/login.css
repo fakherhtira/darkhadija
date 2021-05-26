@@ -3,12 +3,16 @@
     color: #6F080C;
     font-weight: 600;
 }
-.navbar_center_links > li{
-    color: #6F080C;
+.navbar_center_links > li > a{
+    color: #6F080C !important;
     font-weight: 600;
 }
 .footer{
     position: inherit;
+}
+#cart_number,
+#cart_number_mobile{
+color: #6F080C;
 }
 /* Starter */
 .login{
@@ -21,6 +25,7 @@
     box-shadow: -3px 0px 20px 0px #f1f1f1;
 }
 .left_signin > h2 {
+    font-family: Dolce;
     text-align: center;
     color: #6F080C;
     font-size: 50px;
@@ -75,14 +80,13 @@
 .login_form > a:hover {
     color:#a1aaaa;  
 }
-.btn_style{
-    margin: 20px auto;
-    margin-top:50px;
-    font-size: 21px;
-    color: #404343;
-    border: 1px solid #D18F4E;
-    width: 200px;
-    height: 70px
+.btn-cont{
+    outline: none;
+    border: none;
+}
+.btn_sign_in > div{
+    color: #404343 !important;
+    font-size: 20px;
 }
 .right_signin{
     display: block;
@@ -100,6 +104,7 @@
     width: 100%;
 }
 .right_signin_content > h2{
+    font-family: Dolce;
     text-align: center;
     padding: 70px 0;
     font-size: 50px;
@@ -114,14 +119,14 @@
     margin-bottom: 100px;
 }
 .right_signin_content > button{
+    border: none;
+    outline: none;
     margin: 50px 0px;
     margin-left: 30%;
-    font-size: 25px;
-    font-weight: 600;
+    font-weight: 400;
     margin-bottom: 100px;
     color: white;
-    width: 200px;
-    border: 1px solid white;
+
 }
 @media only screen and (max-width:1350px){
     .right_signin_content{

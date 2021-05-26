@@ -8,13 +8,20 @@
     background-image: url("../images/alicia_bg.png");
     background-size: cover;
     height: 100vh;
-    margin-bottom: 200px;
+    margin-bottom: 100px;
 }
 .title_section{
     padding-top: 25%;
 }
 /* Header Event End */
 /* Event Start */
+.title_section{
+    padding-top: 13% ;
+}
+.header_event{
+    max-height: 50vh;
+    overflow: hidden;
+}
 .event{
     padding: 0 100px;
 }
@@ -24,7 +31,7 @@
     padding: 0px;
 }
 .event_s{
-    margin: 300px 0;
+    margin: 50px 0;
 }
 .blog_content{
     background-color: white;
