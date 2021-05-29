@@ -1,0 +1,341 @@
+.title_section_center1 > h2 {
+    color: #6F080C;
+}
+.title_section_line1 > hr{
+    border: 1px solid #511F10;
+}
+.experience_parag_under_header{
+    text-align: center;
+    font-size: 21px;
+    max-width: 780px;
+    width: 100%;
+    margin: 0 auto;
+}
+.btn{
+    color: #404343 !important;
+}
+/* Experience Begin */
+.experience_block{
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    margin:0 20px ;
+}
+.experience_block_star{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.experience_block_star > img{
+    height: 30px;
+    object-fit: contain;
+    margin-right: 20px;
+}
+.experience_block_stars{
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 400;
+    color: #707070;
+    padding-top: 15px;
+    padding-left: 10px;
+}
+.experience_block_date{
+    font-size: 25px;
+    font-family: Dolce;
+    font-weight: 400;
+    color: #D18F4E;
+    text-transform: uppercase;
+    margin-top: 10px;
+    margin: 0;
+}
+.experience_block_title{
+    font-size: 30px;
+    font-family: Dolce;
+    font-weight: 400;
+    color: #404343;
+    text-transform: uppercase;
+    margin: 5px;
+}
+.experience_block_price{
+    font-size: 18px;
+    font-weight: 400;
+    color: #6F080C;
+    font-family: Poppins;
+    margin: 5px;
+
+}
+.experience_block_vertical{
+    position: absolute;
+    top: 11px;
+    left: -23px;
+    background-color: white;
+    padding: 15px 25px;
+    transform: rotate(-90deg);
+    margin: 5px;
+}
+.experience_block_vertical > p {
+    font-size: 18px;
+    font-family: Poppins;
+    font-weight: 400;
+    color: #6F080C;
+}
+.show_all_experience{
+    margin-top: 20px;
+}
+.experience_block_box2{
+padding: 20px;
+max-width: 550px;
+background-color: white;
+transform: translateY(-50px);
+}
+.experience_block_box2_header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.experience_block_box2_header_left{
+    font-size: 30px;
+    font-family: Dolce;
+    font-weight: 400;
+    color: #404343;
+    text-transform: uppercase;
+}
+.experience_block_box2_header_right{
+    font-size: 18px;
+    font-family: Poppins;
+    font-weight: 400;
+    color: #6F080C;
+}
+.experience_block_box2_parag{
+    font-size: 18px;
+    font-family: Poppins;
+    font-weight: 400;
+    color: #404343;
+    max-width: 470px;
+}
+.experience_block_vertical2{
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: white;
+    padding: 10px 20px;
+    margin: 0;
+}
+.experience_block_vertical2 > p {
+    font-size: 18px;
+    font-family: Poppins;
+    font-weight: 400;
+    color: #6F080C;
+}
+.experience_block2{
+    position: relative;
+    display: flex;
+}
+.experience_block_box2{
+    margin-left: 20px;
+}
+.experience_block_img2{
+    width: 380px;
+}
+.experience_block_parag2{
+    font-size: 18px;
+    font-family: Poppins;
+    font-weight: 400;
+    color: #404343;
+    margin-bottom: 5px;
+}
+.experience_block_time{
+    display: flex;
+    align-items: center;
+}
+.experience_block_time > button {
+    border: none;
+    outline: none;
+    border: 1px solid #D18F4E;
+    background-color: white;
+    font-size: 15px;
+    font-family: Poppins;
+    padding: 10px;
+    margin-right: 10px;
+}
+@media only screen and (max-width:1680px){
+    .experience_block2{
+        display: flex;
+        flex-direction: column;
+    }
+    .experience_block_img2{
+        margin-bottom: 50px;
+        margin-left: 20px;
+    }
+    
+}
+@media only screen and (max-width:767px){
+    .experience_block{
+        margin-left: 150px;
+    }
+    
+}
+@media only screen and (max-width:700px){
+    .experience_block{
+        margin-left: 100px;
+    }
+}
+@media only screen and (max-width:600px){
+    .experience_block{
+        margin-left: 30px;
+    }
+}
+/* Experience End */
+/* Detail_Experience Begin */
+.detail_experience_stars{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    text-align: center;
+}
+.detail_experience_gallery{
+    margin: 50px 0;
+}
+.detail_experience_gallery_col_container{
+    padding: 0 !important;
+}
+.detail_experience_gallery_col{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    margin: 0 8px;
+}
+.detail_experience_gallery_col_up{
+    margin-bottom: 16px;
+}
+.detail_experience_review{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.detail_experience_review > img {
+    width: 50px;
+    margin-right: 20px;
+}
+.detail_experience_review > p {
+    font-family: Poppins;
+    font-size: 18px;
+    color: #404343;
+}
+.detail_experience_detail_right_zoom{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    padding: 20px 30px;
+    border: 1px solid black;
+    height: 250px;
+    margin-bottom: 20px;
+}
+.detail_experience_detail_right_zoom > img {
+    width: 50px;
+    margin: 20px 0;
+    margin-bottom: 20px;
+}
+.detail_experience_detail_right_zoom > p {
+    font-family: Poppins;
+    font-size: 18px;
+    color: #404343;
+}
+.detail_experience_detail_right_header{
+    margin-bottom: 70px;
+}
+.detail_experience_detail_right_header1{
+    font-family: Poppins;
+    font-size: 25px;
+    color: #6F080C;
+    font-weight: bold;
+}
+.detail_experience_detail_right_header2{
+    font-family: Poppins;
+    font-size: 18px;
+    color: #404343;
+    font-weight: 400;
+}
+.detail_experience_detail_left1{
+    border-bottom: 1px solid black;
+    padding: 20px 0;
+    margin-bottom: 20px;
+}
+.detail_experience_detail_left11{
+    font-family: Dolce;
+    font-size: 30px;
+    color: #404343;
+    font-weight: 400;
+}
+.detail_experience_detail_left12{
+    font-family: Poppins;
+    font-size: 18px;
+    color: #6F080C;
+    font-weight: 400;
+}
+.detail_experience_detail_left121{
+    font-family: Poppins;
+    font-size: 25px;
+    color: #6F080C;
+    font-weight: bold;
+}
+.detail_experience_detail_left122{
+    font-family: Poppins;
+    font-size: 18px;
+    color: #404343;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+.detail_experience_detail_left1_bottom {
+padding: 20px 0;
+}
+.detail_experience_detail_left1_bottom > h2{
+    font-family: Dolce;
+    font-size: 30px;
+    color: #404343;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+.detail_experience_detail_left1_bottom > p{
+    font-family: Poppins;
+    font-size: 18px;
+    color: #404343;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+.detail_experience_time_box{
+    padding: 20px;
+    box-shadow: 1px 1px 4px 0px rgba(0,0,0,1);
+}
+.detail_experience_times > p{
+    font-family: Poppins;
+    font-size: 30px;
+    font-weight: bold;
+    color: #6F080C;
+}
+.detail_experience_time_time{
+    font-family: Poppins;
+    font-size: 21px;
+    font-weight: 400;
+    color: #6F080C;
+}
+.detail_experience_time_price{
+    font-family: Poppins;
+    font-size: 21px;
+    font-weight: 400;
+    color: #404343;
+    margin-bottom: 20px;
+}
+.detail_experience_time_parag{
+    font-family: Poppins;
+    font-size: 21px;
+    font-weight: 400;
+    color: #404343;
+    text-align: justify;
+    text-justify:inter-word;
+    margin: 40px 0;
+    width: 90%;
+}
+/* Detail_Experience End */

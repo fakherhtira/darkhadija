@@ -506,8 +506,10 @@ body{
 }
 .carousel-item > img{
     filter: brightness(50%);
-    width: 100%;
     min-height: 400px;
+    object-fit: contain;
+    transform: scale(1.5);
+    width: 100%;
 }
 .carousel-caption{
     position:absolute;
