@@ -1,0 +1,617 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Musee Khadija</title>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/plan_a_visit.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous">
+    <script src="./assets/js/script.js" async></script>
+</head>
+<body>
+
+
+<!-- Sup_Navbar Start -->
+<div class="sup_navbar" >
+    <div class="sup_navbar_right" >
+        <!-- Sup_Navbar Right item Start  -->
+            <div class="sup_navbar_right_item" >
+                <a href="#" class="sup_navbar_right_item_title" >Buy tickets</a>
+            </div>
+        <!-- Sup_Navbar Right item End  -->
+        <!-- Sup_Navbar Right item Start  -->
+            <div class="sup_navbar_right_item" >
+                <a href="#" class="sup_navbar_right_item_title" >Experience</a>
+            </div>
+        <!-- Sup_Navbar Right item End  -->
+        <!-- Sup_Navbar Right item Start  -->
+            <div class="sup_navbar_right_item" >
+                <a href="#" class="sup_navbar_right_item_title" >Become a member</a>
+            </div>
+        <!-- Sup_Navbar Right item End  -->
+        <!-- Sup_Navbar Right item Start  -->
+            <div class="sup_navbar_right_item" >
+                <a href="#" class="sup_navbar_right_item_title" >Make a donation</a>
+            </div>
+        <!-- Sup_Navbar Right item End  -->
+        <!-- Sup_Navbar Right item Start  -->
+            <div class="sup_navbar_right_item" >
+                <a href="#" class="sup_navbar_right_item_title" >EN</a>
+            </div>
+        <!-- Sup_Navbar Right item End  -->
+    </div>
+</div>
+<!-- Sup_Navbar End -->
+<!-- Navbar Start -->
+<div class="navbar_container" >
+    <div class="navbar" >
+        <div class="navbar_left" >
+            <img src="./assets/images/logo_dark.png" alt="logo" />
+        </div>
+        <div class="navbar_center" >
+            <ul class="navbar_center_links" >
+                <li class="navbar_center_links_visit_menu_container">
+                    <a href="#">
+                        Visit
+                    </a>
+                    <ul class="navbar_center_links_visit_menu" >
+                        <li>
+                            <a href="#" style="border-bottom: 2px solid #c8693a !important;">
+                                Plan your visit
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" >
+                                Virtual tour
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#" >
+                        Event
+                    </a>
+                </li>
+                <li class="navbar_center_links_collection_menu_container">
+                    <a href="#" >
+                        Collection
+                    </a>
+                    <ul class="navbar_center_links_collection_menu" >
+                        <li>
+                            <a href="#" >
+                                Scenes
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" >
+                                Blog
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" >
+                                Gallery
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#" >
+                        Learn
+                    </a>
+                </li>
+                <li >
+                    <a href="#" >
+                        Shop
+                    </a>
+                </li>
+                <li>
+                    <a href="#" >
+                        About us
+                    </a>
+                </li>
+                <li>
+                    <a href="#" >
+                        Contact
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="navbar_right" >
+            <img src="./assets/icons/loupe.png" alt="search" class="navbar_right_img" />
+            <img src="./assets/icons/shopping-bag.png" alt="cart" class="navbar_right_img" />
+            <img src="./assets/icons/user.png" alt="profile" class="navbar_right_img" />
+            <img src="./assets/icons/menu2.png" src="menu" class="open_navbar" id="menu_box" />
+            <p id="cart_number" >0</p>
+        </div>
+    </div>
+</div>
+<!-- Navbar End --> 
+<!-- Drawer Start -->
+<div class="mobile_nav">
+    <div class="mobile_nav_content" >
+        <div class="drawer_header" >
+            <div class="drawer_left" >
+                <img src="./assets/icons/loupe3.png" alt="search" class="navbar_right_img" />
+                <img src="./assets/icons/shopping-bag3.png" alt="cart" class="navbar_right_img" />
+                <img src="./assets/icons/user3.png" alt="profile" class="navbar_right_img" />   
+                <p id="cart_number_mobile" >0</p>   
+            </div>
+            <div class="drawer_right">
+                <button id="close_drawer" >X</button>
+            </div>
+        </div>
+        <ul class="drawer_first_list">
+            <li>
+                <h2>
+                    <a href="./index.html" class="drawer_title" >
+                        <img width="20px"  src="./assets/images/logo_light.png" alt="home" />
+                    </a>
+                </h2>
+            </li>
+            <li class="visit_sub_menu">
+                <h2>
+                    <a href="#" class="drawer_title">
+                        Visit
+                    </a>
+                    <ul class="sub_drawer" >
+                        <li>
+                            <h4>
+                                <a href="#" class="drawer_title2" style="border-bottom: 2px solid #c8693a !important;"> 
+                                    Plan your visit
+                                </a>
+                            </h4>
+                        </li>
+                        <li>
+                            <h4>
+                                <a href="#" class="drawer_title2" > 
+                                    Virtual tour
+                                </a>
+                            </h4>
+                        </li>
+                    </ul>
+                </h2>
+            </li>
+            <li>
+                <h2>
+                    <a href="#" class="drawer_title" >
+                        Event
+                    </a>
+                </h2>
+            </li>
+            <li class="collection_sub_menu">
+                <h2>
+                    <a href="#" class="drawer_title">
+                        Collection
+                    </a>
+                    <ul class="sub_drawer" >
+                        <li>
+                            <h4>
+                                <a href="#" class="drawer_title2" > 
+                                    Scenes
+                                </a>
+                            </h4>
+                        </li>
+                        <li>
+                            <h4>
+                                <a href="#" class="drawer_title2" > 
+                                    Blog
+                                </a>
+                            </h4>
+                        </li>
+                        <li>
+                            <h4>
+                                <a href="#" class="drawer_title2" > 
+                                    Gallery
+                                </a>
+                            </h4>
+                        </li>
+                    </ul>
+                </h2>
+            </li>
+            <li>
+                <h2>
+                    <a href="#" class="drawer_title">
+                        Learn
+                    </a>
+                </h2>
+            </li>
+            <li>
+                <h2>
+                    <a href="#" class="drawer_title" >
+                        Shop
+                    </a>
+                </h2>
+            </li>
+            <li>
+                <h2>
+                    <a href="#" class="drawer_title">
+                        About Us
+                    </a>
+                </h2>
+            </li>
+            <li>
+                <h2>
+                    <a href="#" class="drawer_title">
+                        Contact
+                    </a>
+                </h2>
+            </li>
+        </ul>
+        <div class="drawer_before_bottom" >
+            <a href="#" >Buy Tickets</a>
+            <a href="#" >Experience</a>
+            <a href="#" >Become a member</a>
+            <a href="#" >Make a donation</a>
+            <a href="#" >EN</a>
+        </div>
+        <div class="drawer_bottom">
+            <h6>Follow us</h6>
+            <div class="drawer_bottom_follow" >
+                <img src="./assets/icons/facebook2.png" alt="facebook" class="navbar_right_img" />
+                <img src="./assets/icons/google2.png" alt="google" class="navbar_right_img" />
+                <img src="./assets/icons/twitter2.png" alt="twitter" class="navbar_right_img" />
+            </div>
+            
+        </div>
+    </div>
+</div>
+<!-- Drawer End -->
+<!-- Header Event Start -->
+<div class="header_event" >
+    <div class="title_section " style="padding-top: 13% ;">
+        <div class="title_section_style" >
+            <div class="title_section_line1" >
+                <hr data-aos="flip-right" data-aos-duration="500" style="border: 1px solid white;">
+            </div>
+            <div class="title_section_center1" >
+                <h2 data-aos="fade-up" data-aos-duration="500" style="color: white;" >PLAN YOUR VISIT</h2>
+            </div>
+            <div class="title_section_line1" >
+                <hr data-aos="flip-right" data-aos-duration="500" style="border: 1px solid white;">
+            </div>
+        </div>
+        
+    </div>
+</div>
+<!-- Header Event End -->
+<!-- Plan a visit Begin -->
+<div class="plan_section1" >
+    <div class="title_section" >
+        <p data-aos="fade-up" data-aos-duration="1000">POST-COVID</p>
+        <div class="title_section_style" >
+            <div class="title_section_line1 title_section_line11" >
+                <hr data-aos="flip-right" data-aos-duration="500">
+            </div>
+            <div class="title_section_center1" >
+                <h2 data-aos="fade-up" data-aos-duration="500">REOPENING</h2>
+            </div>
+            <div class="title_section_line1 title_section_line12" >
+                <hr data-aos="flip-right" data-aos-duration="500">
+            </div>
+        </div>
+    </div>
+    <div class="row row1" >
+        <div class="col-lg-6 col-md-6 col-sm-12 row1_left ">
+            <img src="./assets/plan_a_visit/jean-carlo-emer-n4O6rZQaqaU-un.png" alt="img" >
+        </div>
+        <div class="col-lg-6 col-md-6 col-sm-12 row1_right ">
+            <p>The museum reopened on February,21st to welcome you under the best possible 
+                conditions. We're looking for your safety. That's why all visitors, including those 
+                entitled to free admission, must book a time slot. Bookings can be done through 
+                the online ticketing service.</p>
+        </div>
+    </div>
+</div>
+<div class="plan_section2" >
+    <div class="title_section" >
+        <p data-aos="fade-up" data-aos-duration="1000">HOURS & ADMISSION</p>
+        <div class="title_section_style" >
+            <div class="title_section_line1 title_section_line11" >
+                <hr data-aos="flip-right" data-aos-duration="500">
+            </div>
+            <div class="title_section_center1" >
+                <h2 data-aos="fade-up" data-aos-duration="500">Opening hours</h2>
+            </div>
+            <div class="title_section_line1 title_section_line12" >
+                <hr data-aos="flip-right" data-aos-duration="500">
+            </div>
+        </div>
+    </div>
+    <div class="row row1" >
+        <div class="col-lg-6 col-md-6 col-sm-12 row2_left ">
+            <p>The museum is open daily except Mondays. Last entry 1 hour before closure.
+                Visitors will be asked to prepare themselves to leave 30 minutes before closure.</p>
+                <div class="blog_content_more" >
+                    <div class="blog_content_more_left_line" >
+                        <hr class="blog_content_more_left_line1" >
+                        <hr class="blog_content_more_left_line2" >
+                    </div>
+                    <a href="#" >See opening hours of the museum</a>
+                </div>
+        </div>
+        <div class="col-lg-6 col-md-6 col-sm-12 row2_right ">
+            <p class="plan_open1" >Dar Khadija</p>
+            <p class="plan_open2" >CLOSED</p>
+            <p class="plan_open3" >Tuesday, Wednesday, Thursday, Friday, Saturday, Sunday</p>
+        </div>
+    </div>
+    <div class="title_section" >
+        <div class="title_section_style" >
+            <div class="title_section_line1 title_section_line11" >
+                <hr data-aos="flip-right" data-aos-duration="500">
+            </div>
+            <div class="title_section_center1" >
+                <h2 data-aos="fade-up" data-aos-duration="500">Ticket prices</h2>
+            </div>
+            <div class="title_section_line1 title_section_line12" >
+                <hr data-aos="flip-right" data-aos-duration="500">
+            </div>
+        </div>
+    </div>
+    <div class="row row1" >
+        <div class="col-lg-6 col-md-6 col-sm-12 row2_left ">
+            <p>Tickets can be used to access both the museum and the museum space event. 
+                In line with the measures taken to prevent the spread of COVID-19, all visitors, 
+                including those eligible for free admission, must book a time slot.</p>
+        </div>
+        <div class="col-lg-6 col-md-6 col-sm-12 row2_right ">
+            <div class="fields_plan" >
+                <p>Tickets purchased online</p>
+                <p>10DT</p>
+            </div>
+            <div class="fields_plan" >
+                <p>Children, -10 years old</p>
+                <p>FREE</p>
+            </div>
+            <div class='btn-cont'>
+                <a class='btn' href='#' style="color: black;">
+                  Buy tickets
+                  <span class='line-1'></span>
+                  <span class='line-2'></span>
+                  <span class='line-3'></span>
+                  <span class='line-4'></span>
+                </a>
+              </div>
+        </div>
+    </div>
+</div>
+<div class="plan_section3" >
+    <div class="title_section" >
+        <p data-aos="fade-up" data-aos-duration="1000">MAP, ENTRANCES & DIRECTIONS</p>
+        <div class="title_section_style" >
+            <div class="title_section_line1 title_section_line11" >
+                <hr data-aos="flip-right" data-aos-duration="500">
+            </div>
+            <div class="title_section_center1" >
+                <h2 data-aos="fade-up" data-aos-duration="500">Museum entrances</h2>
+            </div>
+            <div class="title_section_line1 title_section_line12" >
+                <hr data-aos="flip-right" data-aos-duration="500">
+            </div>
+        </div>
+    </div>
+    <div class="section3_parag">
+        <p>There are many ways to get to our museum from the Fort.  Since it is in the
+            Medina you can get there through many doors but it depends if it would 
+            take so much time or not.</p>
+    </div>
+    <div class="row row3" >
+        <img src="./assets/plan_a_visit/MAP.png" alt="maps" />
+    </div>
+</div>
+<div class="plan_section2" >
+    <div class="title_section" >
+        <p data-aos="fade-up" data-aos-duration="1000">VISITOR AMENITIES</p>
+        <div class="title_section_style" >
+            <div class="title_section_line1 title_section_line11" >
+                <hr data-aos="flip-right" data-aos-duration="500">
+            </div>
+            <div class="title_section_center1" >
+                <h2 data-aos="fade-up" data-aos-duration="500">Welcoming visitors</h2>
+            </div>
+            <div class="title_section_line1 title_section_line12" >
+                <hr data-aos="flip-right" data-aos-duration="500">
+            </div>
+        </div>
+    </div>
+    <div class="row row1" >
+        <div class="col-lg-6 col-md-6 col-sm-12 row2_left ">
+            <p>Make the most of our services to enjoy your visit in optimal conditions. Staff 
+                members are at hand throughout the museum to provide up-to-date information 
+                on the museum and its amenities.</p>
+        </div>
+        <div class="col-lg-6 col-md-6 col-sm-12 row2_right " style="padding: 0 !important;">
+            <img src="./assets/icons/icons_plan.png" alt="plans_icons" />
+            <!-- <div>
+                <div class="inline_icons_plans inline_icons_plans1" >
+                    <div>
+                        <img src="" alt="info" />
+                        <p>Information desk</p>
+                    </div>
+                    <div>
+                        <img src="" alt="wheelchairs" />
+                        <p>wheelchairs</p>
+                    </div>
+                    <div>
+                        <img src="" alt="park" />
+                        <p>car park</p>
+                    </div>
+                </div>
+                <div class="inline_icons_plans" >
+                    <div>
+                        <img src="" alt="toilets" />
+                        <p>toilets</p>
+                    </div>
+                    <div>
+                        <img src="" alt="wi-fi" />
+                        <p>Free Wi-Fi</p>
+                    </div>
+                    <div>
+                        <img src="" alt="Audio-guide" />
+                        <p>Audio-guide</p>
+                    </div>
+                </div>
+            </div> -->
+        </div>
+    </div>
+</div>
+<div class="plan_section1" >
+    <div class="title_section" >
+        <p data-aos="fade-up" data-aos-duration="1000">Reserve for your event</p>
+        <div class="title_section_style" >
+            <div class="title_section_line1 title_section_line11" >
+                <hr data-aos="flip-right" data-aos-duration="500">
+            </div>
+            <div class="title_section_center1" >
+                <h2 data-aos="fade-up" data-aos-duration="500">event venue</h2>
+            </div>
+            <div class="title_section_line1 title_section_line12" >
+                <hr data-aos="flip-right" data-aos-duration="500">
+            </div>
+        </div>
+    </div>
+</div>
+<div class="event_plan">
+    <!-- <img src="./assets/images/IMG_2477.png" alt="img" /> -->
+    <div class="event_content_plan" >
+        <h2>Make your event here</h2>
+        <div class="blog_content_more" >
+            <div class="blog_content_more_left_line" >
+                <hr class="blog_content_more_left_line1" >
+                <hr class="blog_content_more_left_line2" >
+            </div>
+            <a href="#" >Make reservation</a>
+        </div>
+    </div>
+</div>
+<div class="plan_section_4" >
+    <div class="title_section" >
+        <p data-aos="fade-up" data-aos-duration="1000">Visits</p>
+        <div class="title_section_style" >
+            <div class="title_section_line1 title_section_line11" >
+                <hr data-aos="flip-right" data-aos-duration="500">
+            </div>
+            <div class="title_section_center1" >
+                <h2 data-aos="fade-up" data-aos-duration="500">Visit as a family</h2>
+            </div>
+            <div class="title_section_line1 title_section_line12" >
+                <hr data-aos="flip-right" data-aos-duration="500">
+            </div>
+        </div>
+    </div>
+    <div class="row row1" >
+        <div class="col-lg-6 col-md-6 col-sm-12 row1_left ">
+            <img src="./assets/plan_a_visit/nicolas-lindsay-WMxj2OEWUT0-un.png" alt="img" >
+        </div>
+        <div class="col-lg-6 col-md-6 col-sm-12 row1_right ">
+            <p>Enjoy Dar Khadija experience with your children at no extra cost – admission to 
+                our events. It is free for all visitors under the age of 10. The museum also offers 
+                guided tours, practical workshops and storytelling sessions in the palace, as 
+                well as a audio-guide and selection of online media resources.</p>
+        </div>
+    </div>
+    <div class="title_section" >
+        <div class="title_section_style" >
+            <div class="title_section_line1 title_section_line11" >
+                <hr data-aos="flip-right" data-aos-duration="500">
+            </div>
+            <div class="title_section_center1" >
+                <h2 data-aos="fade-up" data-aos-duration="500">VISIT AS A GROUP</h2>
+            </div>
+            <div class="title_section_line1 title_section_line12" >
+                <hr data-aos="flip-right" data-aos-duration="500">
+            </div>
+        </div>
+    </div>
+    <div class="row row1" >
+        <div class="col-lg-6 col-md-6 col-sm-12 row1_right " style="padding-right: 50px;">
+            <p>The museum offers a range of activities and tools for visiting the museum with 
+                groups of school children, disabled visitors and more: how to organise your visit, 
+                training, Dar Khadija membership, etc.</p>
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-12 row1_left ">
+                <img src="./assets/plan_a_visit/alicia-steels-PA2rnR4pF9A-unsp.png" alt="img" >
+            </div>
+        </div>
+</div>
+<div class="plan_section1" >
+    <div class="title_section" >
+        <p data-aos="fade-up">Learn in dar khadija</p>
+        <div class="title_section_style" >
+            <div class="title_section_line1 title_section_line11" >
+                <hr data-aos="flip-right" >
+            </div>
+            <div class="title_section_center1" >
+                <h2 data-aos="fade-up" >Get an experience</h2>
+            </div>
+            <div class="title_section_line1 title_section_line12" >
+                <hr data-aos="flip-right" >
+            </div>
+        </div>
+    </div>
+</div>
+<div class="event_plan2" style="margin-bottom: 100px;">
+    <div class="event_content_2" >
+        <h2>Get to learn with us</h2>
+        <div class="blog_content_more" >
+            <div class="blog_content_more_left_line" >
+                <hr class="blog_content_more_left_line1" >
+                <hr class="blog_content_more_left_line2" >
+            </div>
+            <a href="#" style="color: white;" >See our experiences</a>
+        </div>
+    </div>
+</div>
+<!-- Plan a visit End -->
+<!-- Footer Start -->
+    <div class="footer" >
+        <div class="row">
+            <div class="col-lg-3 col-md-6 col-sm-12 footer_section footer_1" >
+                <img src="./assets//images/logo_dark.png" alt="logo" />
+                <p>Address: Mohamed BOUSLAMA<br> street 8050 Hammamet<br> Medina,Tunisia</p>
+                <p>Phone: +216 29 315 319</p>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12 footer_section footer_2" >
+                <h2>Museum info</h2>
+                <div>
+                    <p>Visit us</p>
+                    <p>Events</p>
+                    <p>Learn</p>
+                    <p>Shop</p>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12 footer_section footer_3" >
+                <h2>Opening hours</h2>
+                <div>
+                    <p>Tue-Thu: 9AM-7PM</p>
+                    <p>Fri-Sat: 9AM-5PM</p>
+                    <p>Sun: 9AM-12PM</p>
+                    <p>Mon: closed</p>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12 footer_section footer_4" >
+                <h2>Follow us</h2>
+                <div>
+                    <img src="./assets/icons/facebook.png" alt="facebook" />
+                    <img src="./assets/icons/instagram.png" alt="instagram" />
+                    <img src="./assets/icons/twitter.png" alt="twitter" />
+                    <img src="./assets/images/ID15-156510_white-patreon-logo.png" alt="pateron" />
+                </div>
+            </div>
+        </div>
+        <div class="row" >
+            <p class="last_text" >© 2021 Musée Dar Khadija. All rights reserved.</p>
+        </div>
+    </div>
+<!-- Footer End -->
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.min.js" integrity="sha384-lpyLfhYuitXl2zRZ5Bn2fqnhNAKOAaM/0Kr9laMspuaMiZfGmfwRNFh8HlMy49eQ" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init();
+</script>
+</body>
+</html>

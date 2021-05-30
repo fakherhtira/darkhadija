@@ -1,0 +1,253 @@
+/* Starter */
+.footer{
+    position: inherit;
+}
+/* Starter */
+.header_event{
+    background-image: url("../plan_a_visit/amy-leigh-barnard-H3APOiYLyzk-.png");
+    background-size: cover;
+    height: 100vh;
+    margin-bottom: 100px;
+}
+.title_section{
+    padding-top:50px;
+}
+.header_event{
+    max-height: 50vh;
+    overflow: hidden;
+}
+
+.title_section_center1 > h2 {
+    color: #6F080C;
+}
+.title_section_line1 > hr{
+    border: 1px solid #511F10;
+}
+.experience_parag_under_header{
+    text-align: center;
+    font-size: 21px;
+    max-width: 780px;
+    width: 100%;
+    margin: 0 auto;
+}
+.btn{
+    color: #404343 !important;
+}
+/* Plan a Visit */
+.plan_section1{
+    padding: 0 140px;
+}
+.row1{
+    margin-bottom: 100px;
+}
+.row1_left{
+    padding-right: 75px;
+}
+.row1_left > img{
+    width: 100%;
+    object-fit: contain;
+}
+.row1_right{
+    height: 450px;
+    padding-top: 5%;
+}
+.row1_right > p {
+    font-size: 21px;
+    color: #404343; 
+}
+.plan_section2{
+    background-color: #F7F7F7;
+    padding: 100px 140px;
+}
+.row2_right{
+    background-color: white;
+    padding: 35px 75px;
+    text-align: center;
+}
+.row2_right > img{
+    width: 100%;
+}
+.row2_left > p{
+    padding-top: 100px;
+    max-width: 815px;
+    padding-right: 50px;
+}
+.row2_right > .fields_plan{
+    border-bottom: 1px solid #707070;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    padding: 10px 50px;
+}
+.row2_left > .fields_plan,  
+.row2_right > .fields_plan{
+    font-family: Poppins;
+    font-weight: bold !important;
+    font-size: 21px;
+    color: #404343;
+}
+.plan_open1{
+    font-family: Dolce;
+    color:#404343;
+    font-size: 30px;
+}
+.plan_open2{
+    font-family: Poppins;
+    color:#6F080C;
+    font-size: 40px;
+}
+.plan_open3{
+    font-family: Poppins;
+    color: #404343;
+    font-size: 21px;
+}
+.plan_section3{
+    padding: 0 100px;
+}
+.section3_parag{
+    max-width: 780px;
+    width: 100%;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+.section3_parag > p{
+    text-align: center;
+    font-size: 21px;
+    color:#404343;
+}
+.row3{
+    margin-bottom: 100px;
+}
+/* event_plan Start */
+.event_plan{
+    background-image: url('../images/IMG_2477.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+    width: 100%;
+    position: relative;
+    height:800px;
+}
+.event_plan2{
+    background-image: url('../plan_a_visit/nickolas-nikolic-_KCrSolz6FI-u.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+    width: 100%;
+    position: relative;
+    height:800px;
+}
+.event_content_plan{
+    position:absolute;
+    background-color: #2B2E1D;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 10%;
+    color: white;
+    padding-left:50px ;
+    padding-top:50px ;
+    padding-right:200px ;
+    padding-bottom: 50px;
+}
+.event_content_plan > h2 {
+    font-family: Dolce;
+    font-size: 30px;
+    font-weight: 600;
+}
+.blog_content_more_left_line1 {
+    border:1px solid #D18F4E;
+}
+.blog_content_more_left_line2 {
+    border:1px solid #D18F4E;
+}
+.event_content_plan > div > a {
+    text-decoration: none;
+    color: white;
+    font-size: 19px;
+    font-weight: 400;
+    font-style: italic;
+}
+@media only screen and (max-width:1650px){
+    .event_plan{
+        height:600px;
+    }
+}
+@media only screen and (max-width:1050px){
+    .event_plan{
+        height:500px;
+    }
+    .event_content_plan{
+        padding-left:20px ;
+        padding-top:40px ;
+        padding-right:100px ;
+        padding-bottom: 20px;
+    }
+    .event_content_plan > h2 {
+        font-size: 25px;
+    }
+    .event_content_plan > p {
+        font-size: 16px;
+    }
+}
+@media only screen and (max-width:767px){
+    .event_plan{
+        height:400px;
+    }
+    .event_content_plan{
+        right: 2%;
+        padding-left:20px ;
+        padding-top:30px ;
+        padding-right:80px ;
+        padding-bottom: 20px;
+    }
+    .event_content_plan > h2 {
+        font-size: 25px;
+    }
+    .event_content_plan > p {
+        font-size: 16px;
+    }
+}
+.inline_icons_plans{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+}
+.inline_icons_plans1{
+    border-bottom: 1px solid #404343;
+}
+.plan_section_4{
+    padding: 50px 140px;
+}
+/* event_plan End */
+@media only screen and (max-width:1200px){
+    .row1_right{
+        padding-top: 0;
+    }
+    .plan_section1{
+        padding: 20px;
+    }
+    .row1{
+        margin-bottom: 50px;
+    }
+    .row1_left{
+        padding-right: 20px;
+    }
+    .plan_section2{
+        background-color: #F7F7F7;
+        padding: 20px;
+    }
+    .row3{
+        margin-bottom: 50px;
+    }
+    .plan_section3{
+        padding: 20px;
+    }
+    .plan_section_4{
+        padding: 20px;
+    }
+    .title_section{
+        padding-top: 0;
+    }
+}
+/* Plan a Visit */

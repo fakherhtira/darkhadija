@@ -1,0 +1,450 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Musee Khadija</title>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/login.css">
+    <link rel="stylesheet" href="./assets/css/add_to_cart.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous">
+    <script src="./assets/js/script.js" async></script>
+</head>
+<body>
+
+
+<!-- Sup_Navbar Start -->
+<div class="sup_navbar" >
+    <div class="sup_navbar_right" >
+        <!-- Sup_Navbar Right item Start  -->
+            <div class="sup_navbar_right_item" >
+                <a href="#" class="sup_navbar_right_item_title" >Buy tickets</a>
+            </div>
+        <!-- Sup_Navbar Right item End  -->
+        <!-- Sup_Navbar Right item Start  -->
+            <div class="sup_navbar_right_item" >
+                <a href="#" class="sup_navbar_right_item_title" >Experience</a>
+            </div>
+        <!-- Sup_Navbar Right item End  -->
+        <!-- Sup_Navbar Right item Start  -->
+            <div class="sup_navbar_right_item" >
+                <a href="#" class="sup_navbar_right_item_title" >Become a member</a>
+            </div>
+        <!-- Sup_Navbar Right item End  -->
+        <!-- Sup_Navbar Right item Start  -->
+            <div class="sup_navbar_right_item" >
+                <a href="#" class="sup_navbar_right_item_title" >Make a donation</a>
+            </div>
+        <!-- Sup_Navbar Right item End  -->
+        <!-- Sup_Navbar Right item Start  -->
+            <div class="sup_navbar_right_item" >
+                <a href="#" class="sup_navbar_right_item_title" >EN</a>
+            </div>
+        <!-- Sup_Navbar Right item End  -->
+    </div>
+</div>
+<!-- Sup_Navbar End -->
+<!-- Navbar Start -->
+<div class="navbar_container" >
+    <div class="navbar" >
+        <div class="navbar_left" >
+            <img src="./assets/images/logo_light.png" alt="logo" />
+        </div>
+        <div class="navbar_center" >
+            <ul class="navbar_center_links" >
+                <li class="navbar_center_links_visit_menu_container">
+                    <a href="#">
+                        Visit
+                    </a>
+                    <ul class="navbar_center_links_visit_menu" >
+                        <li>
+                            <a href="#" >
+                                Plan your visit
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" >
+                                Virtual tour
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#">
+                        Event
+                    </a>
+                </li>
+                <li class="navbar_center_links_collection_menu_container">
+                    <a href="#" >
+                        Collection
+                    </a>
+                    <ul class="navbar_center_links_collection_menu" >
+                        <li>
+                            <a href="#" >
+                                Scenes
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" >
+                                Blog
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" >
+                                Gallery
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#" >
+                        Learn
+                    </a>
+                </li>
+                <li>
+                    <a href="#" >
+                        Shop
+                    </a>
+                </li>
+                <li>
+                    <a href="#" >
+                        About us
+                    </a>
+                </li>
+                <li>
+                    <a href="#" >
+                        Contact
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="navbar_right" >
+            <img src="./assets/icons/loupe3.png" alt="search" class="navbar_right_img" />
+            <img src="./assets/icons/shopping-bag3.png" alt="cart" class="navbar_right_img" />
+            <img src="./assets/icons/user3.png" alt="profile" class="navbar_right_img" />
+            <img src="./assets/icons/menu.png" src="menu" class="open_navbar" id="menu_box" />
+            <p id="cart_number" >0</p>
+        </div>
+    </div>
+</div>
+<!-- Navbar End --> 
+<!-- Drawer Start -->
+<div class="mobile_nav">
+    <div class="mobile_nav_content" >
+        <div class="drawer_header" >
+            <div class="drawer_left" >
+                <img src="./assets/icons/loupe3.png" alt="search" class="navbar_right_img" />
+                <img src="./assets/icons/shopping-bag3.png" alt="cart" class="navbar_right_img" />
+                <img src="./assets/icons/user3.png" alt="profile" class="navbar_right_img" />   
+                <p id="cart_number_mobile" >0</p>   
+            </div>
+            <div class="drawer_right">
+                <button id="close_drawer" >X</button>
+            </div>
+        </div>
+        <ul class="drawer_first_list">
+            <li>
+                <h2>
+                    <a href="./index.html" class="drawer_title" >
+                        <img width="20px"  src="./assets/images/logo_light.png" alt="home" />
+                    </a>
+                </h2>
+            </li>
+            <li class="visit_sub_menu">
+                <h2>
+                    <a href="#" class="drawer_title">
+                        Visit
+                    </a>
+                    <ul class="sub_drawer" >
+                        <li>
+                            <h4>
+                                <a href="#" class="drawer_title2" > 
+                                    Plan your visit
+                                </a>
+                            </h4>
+                        </li>
+                        <li>
+                            <h4>
+                                <a href="#" class="drawer_title2" > 
+                                    Virtual tour
+                                </a>
+                            </h4>
+                        </li>
+                    </ul>
+                </h2>
+            </li>
+            <li>
+                <h2>
+                    <a href="#" class="drawer_title">
+                        Event
+                    </a>
+                </h2>
+            </li>
+            <li class="collection_sub_menu">
+                <h2>
+                    <a href="#" class="drawer_title">
+                        Collection
+                    </a>
+                    <ul class="sub_drawer" >
+                        <li>
+                            <h4>
+                                <a href="#" class="drawer_title2" > 
+                                    Scenes
+                                </a>
+                            </h4>
+                        </li>
+                        <li>
+                            <h4>
+                                <a href="#" class="drawer_title2" > 
+                                    Blog
+                                </a>
+                            </h4>
+                        </li>
+                        <li>
+                            <h4>
+                                <a href="#" class="drawer_title2" > 
+                                    Gallery
+                                </a>
+                            </h4>
+                        </li>
+                    </ul>
+                </h2>
+            </li>
+            <li>
+                <h2>
+                    <a href="#" class="drawer_title">
+                        Learn
+                    </a>
+                </h2>
+            </li>
+            <li>
+                <h2>
+                    <a href="#" class="drawer_title">
+                        Shop
+                    </a>
+                </h2>
+            </li>
+            <li>
+                <h2>
+                    <a href="#" class="drawer_title">
+                        About Us
+                    </a>
+                </h2>
+            </li>
+            <li>
+                <h2>
+                    <a href="#" class="drawer_title">
+                        Contact
+                    </a>
+                </h2>
+            </li>
+        </ul>
+        <div class="drawer_before_bottom" >
+            <a href="#" >Buy Tickets</a>
+            <a href="#" >Experience</a>
+            <a href="#" >Become a member</a>
+            <a href="#" >Make a donation</a>
+            <a href="#" >EN</a>
+        </div>
+        <div class="drawer_bottom">
+            <h6>Follow us</h6>
+            <div class="drawer_bottom_follow" >
+                <img src="./assets/icons/facebook2.png" alt="facebook" class="navbar_right_img" />
+                <img src="./assets/icons/google2.png" alt="google" class="navbar_right_img" />
+                <img src="./assets/icons/twitter2.png" alt="twitter" class="navbar_right_img" />
+            </div>
+            
+        </div>
+    </div>
+</div>
+<!-- Drawer End -->
+<!-- Login Start -->
+    <div class="login" >
+        <div class="cart" >
+            <div class="cart1" >
+                <p>The Following item has been added to your cart.</p>
+            </div>
+            <div class="row" >
+                <div class="col-md-4 quick_cart " >
+                    <h2>QUICK CART</h2>
+                    <p>1 item in your shopping cart</p>
+                    <hr>
+                    <div class="total">
+                        <p>total</p>
+                        <p class="price">40 <sup>DT</sup></p>
+                    </div>
+                    <div class="cart_btns" >
+                        <div class='btn-cont'>
+                            <a class='btn' href='#' style="color:#404343;">
+                                Continue shopping
+                                <span class='line-1'></span>
+                                <span class='line-2'></span>
+                                <span class='line-3'></span>
+                                <span class='line-4'></span>
+                            </a>
+                        </div>
+                        <div class='btn-cont'>
+                            <a class='btn' href='#' style="color:#404343;">
+                                View cart
+                                <span class='line-1'></span>
+                                <span class='line-2'></span>
+                                <span class='line-3'></span>
+                                <span class='line-4'></span>
+                            </a>
+                        </div>
+                        <div class='btn-cont'>
+                            <a class='btn' href='#' style="color:#404343;">
+                                Proceed to checkout
+                                <span class='line-1'></span>
+                                <span class='line-2'></span>
+                                <span class='line-3'></span>
+                                <span class='line-4'></span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-8 quick_cart " style="padding: 50px;" >
+                    <h2>QUICK CART</h2>
+                    <div class="cart_item" >
+                        <img src="./assets/images/phone-casing-2_shop.png" alt="" width="100px" height="100px" />
+                        <div>
+                            <h2 class="title">PHONE CASE</h2>
+                            <p class="alias">No. 136190</p>
+                        </div>
+                        <p class="price price1">40<sup>DT</sup></p>
+                        <div class="products_header_right_quantity_input" >
+                            <button class="products_quantity_manag products_quantity_manag1" >+</button>
+                            <input class="products_quantity_manag3" type="number" name="quantity" value="1" placeholder="1" maxlength="2" size="2" min="1" max="15" />
+                            <button class="products_quantity_manag products_quantity_manag2" >-</button>
+                        </div>
+                        <p class="price price2">40<sup>DT</sup></p>
+                        <button>X</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="products_bottom" >
+            <div class="title_section" >
+                <div class="title_section_style" >
+                    <div class="title_section_line" >
+                        <hr>
+                    </div>
+                    <div class="title_section_center" >
+                        <h2>Related Products</h2>
+                    </div>
+                    <div class="title_section_line" >
+                        <hr>
+                    </div>
+                </div>
+            </div>
+            <div class="row" >
+                <div class="col-lg-3 col-md-6 col-sm-12" >
+                    <!-- items -->
+                        <div class="shop_swiper_item" >
+                            <img src="./assets/images/Free_A5_Desk_Calendar_Mockup_1.png" alt="pillow"/>
+                            <p class="shop_swiper_item_title" >Calendar</p>
+                            <p class="shop_swiper_item_price" >40<sup>DT</sup></p>
+                        </div>
+                    <!-- items -->
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12" >
+                    <!-- items -->
+                        <div class="shop_swiper_item" >
+                            <img src="./assets/images/Poster_Mockup_2.png" alt="pillow"/>
+                            <p class="shop_swiper_item_title" >Poster Frame</p>
+                            <p class="shop_swiper_item_price" >40<sup>DT</sup></p>
+                        </div>
+                    <!-- items -->
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12" >
+                    <!-- items -->
+                        <div class="shop_swiper_item" >
+                            <img src="./assets/images/Small_Canvas_Tote_Bag_MockUp.png" alt="pillow"/>
+                            <p class="shop_swiper_item_title" >Tote Bag</p>
+                            <p class="shop_swiper_item_price" >40<sup>DT</sup></p>
+                        </div>
+                    <!-- items -->
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12" >
+                    <!-- items -->
+                        <div class="shop_swiper_item" >
+                            <img src="./assets/images/phone-casing-2.png" alt="pillow"/>
+                            <p class="shop_swiper_item_title" >Phone Case</p>
+                            <p class="shop_swiper_item_price" >40<sup>DT</sup></p>
+                        </div>
+                    <!-- items -->
+                </div>
+            </div>
+        </div>
+    </div>
+<!-- Login End -->
+<!-- Footer Start -->
+    <div class="footer" >
+        <div class="row">
+            <div class="col-lg-3 col-md-6 col-sm-12 footer_section footer_1" >
+                <img src="./assets//images/logo_dark.png" alt="logo" />
+                <p>Address: Mohamed BOUSLAMA<br> street 8050 Hammamet<br> Medina,Tunisia</p>
+                <p>Phone: +216 29 315 319</p>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12 footer_section footer_2" >
+                <h2>Museum info</h2>
+                <div>
+                    <p>Visit us</p>
+                    <p>Events</p>
+                    <p>Learn</p>
+                    <p>Shop</p>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12 footer_section footer_3" >
+                <h2>Opening hours</h2>
+                <div>
+                    <p>Tue-Thu: 9AM-7PM</p>
+                    <p>Fri-Sat: 9AM-5PM</p>
+                    <p>Sun: 9AM-12PM</p>
+                    <p>Mon: closed</p>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12 footer_section footer_4" >
+                <h2>Follow us</h2>
+                <div>
+                    <img src="./assets/icons/facebook.png" alt="facebook" />
+                    <img src="./assets/icons/instagram.png" alt="instagram" />
+                    <img src="./assets/icons/twitter.png" alt="twitter" />
+                    <img src="./assets/images/ID15-156510_white-patreon-logo.png" alt="pateron" />
+                </div>
+            </div>
+        </div>
+        <div class="row" >
+            <p class="last_text" >© 2021 Musée Dar Khadija. All rights reserved.</p>
+        </div>
+    </div>
+<!-- Footer End -->
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.min.js" integrity="sha384-lpyLfhYuitXl2zRZ5Bn2fqnhNAKOAaM/0Kr9laMspuaMiZfGmfwRNFh8HlMy49eQ" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init();
+    var plus = document.getElementsByClassName('products_quantity_manag1')[0];
+var minus = document.getElementsByClassName('products_quantity_manag2')[0];
+var qty = document.getElementsByClassName('products_quantity_manag3')[0];
+console.log(qty.value)
+plus.addEventListener('click', e => {
+    if(parseInt(qty.value)<50){
+        qty.value = parseInt(qty.value) + 1;
+        console.log(qty.value)
+    }
+})
+minus.addEventListener('click', e => {
+    if(parseInt(qty.value) <= 1){
+        qty.value = '1';
+        console.log(qty.value)
+    }else{
+        qty.value = parseInt(qty.value) - 1;
+        console.log(qty.value)
+    }
+})
+</script>
+</body>
+</html>

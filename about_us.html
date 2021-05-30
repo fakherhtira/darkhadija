@@ -1,0 +1,644 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Musee Khadija</title>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/about.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous">
+    <!-- Swiper -->
+    <link rel="stylesheet" href="./assets/css/swiper-bundle.min.css" />
+    <script src="./assets/js/script.js" async></script>
+</head>
+<body>
+
+
+<!-- Sup_Navbar Start -->
+<div class="sup_navbar" >
+    <div class="sup_navbar_right" >
+        <!-- Sup_Navbar Right item Start  -->
+            <div class="sup_navbar_right_item" >
+                <a href="#" class="sup_navbar_right_item_title" >Buy tickets</a>
+            </div>
+        <!-- Sup_Navbar Right item End  -->
+        <!-- Sup_Navbar Right item Start  -->
+            <div class="sup_navbar_right_item" >
+                <a href="#" class="sup_navbar_right_item_title" >Experience</a>
+            </div>
+        <!-- Sup_Navbar Right item End  -->
+        <!-- Sup_Navbar Right item Start  -->
+            <div class="sup_navbar_right_item" >
+                <a href="#" class="sup_navbar_right_item_title" >Become a member</a>
+            </div>
+        <!-- Sup_Navbar Right item End  -->
+        <!-- Sup_Navbar Right item Start  -->
+            <div class="sup_navbar_right_item" >
+                <a href="#" class="sup_navbar_right_item_title" >Make a donation</a>
+            </div>
+        <!-- Sup_Navbar Right item End  -->
+        <!-- Sup_Navbar Right item Start  -->
+            <div class="sup_navbar_right_item" >
+                <a href="#" class="sup_navbar_right_item_title" >EN</a>
+            </div>
+        <!-- Sup_Navbar Right item End  -->
+    </div>
+</div>
+<!-- Sup_Navbar End -->
+<!-- Navbar Start -->
+<div class="navbar_container" >
+    <div class="navbar" >
+        <div class="navbar_left" >
+            <img src="./assets/images/logo_dark.png" alt="logo" />
+        </div>
+        <div class="navbar_center" >
+            <ul class="navbar_center_links" >
+                <li class="navbar_center_links_visit_menu_container">
+                    <a href="#">
+                        Visit
+                    </a>
+                    <ul class="navbar_center_links_visit_menu" >
+                        <li>
+                            <a href="#" >
+                                Plan your visit
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" >
+                                Virtual tour
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#" >
+                        Event
+                    </a>
+                </li>
+                <li class="navbar_center_links_collection_menu_container">
+                    <a href="#" >
+                        Collection
+                    </a>
+                    <ul class="navbar_center_links_collection_menu" >
+                        <li>
+                            <a href="#" >
+                                Scenes
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" >
+                                Blog
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" >
+                                Gallery
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#" >
+                        Learn
+                    </a>
+                </li>
+                <li >
+                    <a href="#" >
+                        Shop
+                    </a>
+                </li>
+                <li>
+                    <a href="#" style="border-bottom: 2px solid #c8693a !important;">
+                        About us
+                    </a>
+                </li>
+                <li>
+                    <a href="#" >
+                        Contact
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="navbar_right" >
+            <img src="./assets/icons/loupe.png" alt="search" class="navbar_right_img" />
+            <img src="./assets/icons/shopping-bag.png" alt="cart" class="navbar_right_img" />
+            <img src="./assets/icons/user.png" alt="profile" class="navbar_right_img" />
+            <img src="./assets/icons/menu2.png" src="menu" class="open_navbar" id="menu_box" />
+            <p id="cart_number" >0</p>
+        </div>
+    </div>
+</div>
+<!-- Navbar End --> 
+<!-- Drawer Start -->
+<div class="mobile_nav">
+    <div class="mobile_nav_content" >
+        <div class="drawer_header" >
+            <div class="drawer_left" >
+                <img src="./assets/icons/loupe3.png" alt="search" class="navbar_right_img" />
+                <img src="./assets/icons/shopping-bag3.png" alt="cart" class="navbar_right_img" />
+                <img src="./assets/icons/user3.png" alt="profile" class="navbar_right_img" />   
+                <p id="cart_number_mobile" >0</p>   
+            </div>
+            <div class="drawer_right">
+                <button id="close_drawer" >X</button>
+            </div>
+        </div>
+        <ul class="drawer_first_list">
+            <li>
+                <h2>
+                    <a href="./index.html" class="drawer_title" >
+                        <img width="20px"  src="./assets/images/logo_light.png" alt="home" />
+                    </a>
+                </h2>
+            </li>
+            <li class="visit_sub_menu">
+                <h2>
+                    <a href="#" class="drawer_title">
+                        Visit
+                    </a>
+                    <ul class="sub_drawer" >
+                        <li>
+                            <h4>
+                                <a href="#" class="drawer_title2" > 
+                                    Plan your visit
+                                </a>
+                            </h4>
+                        </li>
+                        <li>
+                            <h4>
+                                <a href="#" class="drawer_title2" > 
+                                    Virtual tour
+                                </a>
+                            </h4>
+                        </li>
+                    </ul>
+                </h2>
+            </li>
+            <li>
+                <h2>
+                    <a href="#" class="drawer_title" >
+                        Event
+                    </a>
+                </h2>
+            </li>
+            <li class="collection_sub_menu">
+                <h2>
+                    <a href="#" class="drawer_title">
+                        Collection
+                    </a>
+                    <ul class="sub_drawer" >
+                        <li>
+                            <h4>
+                                <a href="#" class="drawer_title2" > 
+                                    Scenes
+                                </a>
+                            </h4>
+                        </li>
+                        <li>
+                            <h4>
+                                <a href="#" class="drawer_title2" > 
+                                    Blog
+                                </a>
+                            </h4>
+                        </li>
+                        <li>
+                            <h4>
+                                <a href="#" class="drawer_title2" > 
+                                    Gallery
+                                </a>
+                            </h4>
+                        </li>
+                    </ul>
+                </h2>
+            </li>
+            <li>
+                <h2>
+                    <a href="#" class="drawer_title">
+                        Learn
+                    </a>
+                </h2>
+            </li>
+            <li>
+                <h2>
+                    <a href="#" class="drawer_title" >
+                        Shop
+                    </a>
+                </h2>
+            </li>
+            <li>
+                <h2>
+                    <a href="#" class="drawer_title" style="border-bottom: 2px solid #c8693a !important;">
+                        About Us
+                    </a>
+                </h2>
+            </li>
+            <li>
+                <h2>
+                    <a href="#" class="drawer_title">
+                        Contact
+                    </a>
+                </h2>
+            </li>
+        </ul>
+        <div class="drawer_before_bottom" >
+            <a href="#" >Buy Tickets</a>
+            <a href="#" >Experience</a>
+            <a href="#" >Become a member</a>
+            <a href="#" >Make a donation</a>
+            <a href="#" >EN</a>
+        </div>
+        <div class="drawer_bottom">
+            <h6>Follow us</h6>
+            <div class="drawer_bottom_follow" >
+                <img src="./assets/icons/facebook2.png" alt="facebook" class="navbar_right_img" />
+                <img src="./assets/icons/google2.png" alt="google" class="navbar_right_img" />
+                <img src="./assets/icons/twitter2.png" alt="twitter" class="navbar_right_img" />
+            </div>
+            
+        </div>
+    </div>
+</div>
+<!-- Drawer End -->
+<!-- Header Event Start -->
+<div class="header_event" >
+    <div class="title_section " style="padding-top: 13% ;">
+        <div class="title_section_style" >
+            <div class="title_section_line1" >
+                <hr data-aos="flip-right" data-aos-duration="500" style="border: 1px solid white;">
+            </div>
+            <div class="title_section_center1" >
+                <h2 data-aos="fade-up" data-aos-duration="500" style="color: white;" >About Us</h2>
+            </div>
+            <div class="title_section_line1" >
+                <hr data-aos="flip-right" data-aos-duration="500" style="border: 1px solid white;">
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Header Event End -->
+<!-- About us -->
+<div class="about_section1" >
+    <div class="title_section" >
+        <p data-aos="fade-up" data-aos-duration="1000">Get to know us</p>
+        <div class="title_section_style" >
+            <div class="title_section_line1 title_section_line11" >
+                <hr data-aos="flip-right" data-aos-duration="500">
+            </div>
+            <div class="title_section_center1" >
+                <h2 data-aos="fade-up" data-aos-duration="500">About the museum</h2>
+            </div>
+            <div class="title_section_line1 title_section_line12" >
+                <hr data-aos="flip-right" data-aos-duration="500">
+            </div>
+        </div>
+    </div>
+    <div class="about_parag1" >
+        <p>Originally DAR KHADIJA is a Traditional House acquired by a son to give it to 
+            his mother Khadija. The Museum offers and stages the history of the city of 
+            Hammamet and the Cap-Bon region through centuries and civilizations. </p>
+    </div>
+    <div class="row about_section2" >
+        <div class="col-md-4 col-sm-12 about_row_1 " >
+            <p>The DAR KHADIJA MUSEUM has opened its doors to the 
+                public to exhibit stagings that illustrate and highlight 
+                Tunisian Heritage (weaving, embroidery, distillation 
+                of orange blossoms, wedding ceremonies, fishing,. ..) 
+                In short, The history of traditional Cap_Bon inheritances
+                of Hammamet between the Phoenicians, the Romans, 
+                the Knights of Malta, the French protectorate.</p>
+        </div>
+        <div class="col-md-4 col-sm-12 about_row1 "  >
+            <div class="about_header_2" >
+                <img src="./assets/icons/clock3.png" width="30px" height="30px" alt="clock" />
+                <div>
+                    <h2>Opening hours</h2>
+                    <p>Tue-Thu: 8AM-7PM</p>
+                    <p>Fri-Sat: 8AM-5PM</p>
+                    <p>Sun: 9AM-12PM</p>
+                    <p>Mon: closed</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 col-sm-12 about_row1 "  >
+            <div class="about_header_2" >
+                <img src="./assets/icons/right-menu-bars3.png" width="30px" height="30px" alt="clock" />
+                <div>
+                    <h2>ADMISSIONS</h2>
+                    <p>Adults: 10DT</p>
+                    <p>Students: 5DT</p>
+                    <p>Seniors: 5DT</p>
+                    <p>Children: Free</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="detail_experience_gallery" >
+        <div class="row" >
+            <div class="col-lg-3 col-md-6 col-sm-12 detail_experience_gallery_col_container" >
+                <div class="detail_experience_gallery_col" >
+                    <img class="detail_experience_gallery_col_up" src="./assets/about/IMG_2223_1.png" alt="img" />
+                    <img class="detail_experience_gallery_col_down" src="./assets/about/IMG_2329.png" alt="img" />
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12 detail_experience_gallery_col_container" >
+                <div class="detail_experience_gallery_col" >
+                    <img class="detail_experience_gallery_col_up" src="./assets/about/IMG_2197.png" alt="img" />
+                    <img class="detail_experience_gallery_col_down" src="./assets/about/IMG_2315.png" alt="img" />
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12 detail_experience_gallery_col_container" >
+                <div class="detail_experience_gallery_col" >
+                    <img class="detail_experience_gallery_col_up" src="./assets/about/IMG_2214.png" alt="img" />
+                    <img class="detail_experience_gallery_col_down" src="./assets/about/IMG_2365.png" alt="img" />
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12 detail_experience_gallery_col_container" >
+                <div class="detail_experience_gallery_col" >
+                    <img class="detail_experience_gallery_col_up" src="./assets/about/IMG_2311.png" alt="img" />
+                    <img class="detail_experience_gallery_col_down" src="./assets/about/IMG_2329.png" alt="img" />
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Testimonial Start -->
+<div class="testimonial" style="padding: 0;">
+    <div class="testimonial_icon" >
+        <img src="./assets/icons/pause_icon.png" alt="icon" />
+    </div>
+    <div class="testimonial_swiper" >
+        <!-- Slider main container Start-->
+            <div class="swiper-container swiper-container-testimonial">
+                <!-- Additional required wrapper -->
+                <div class="swiper-wrapper swiper_wrapper_testimonial">
+                <!-- Slides -->
+                <div class="swiper-slide">
+                    <!-- testimonial item Start -->
+                        <div class="testimonials_swiper_item" >
+                            <p class="testimonials_swiper_item_parag" >A fantastic visit aAn esperience that makes the elders and the youth happy
+                                and satisfied. Such amazing scenes which contain sculptures that look so
+                                real than nature. I totally recommande</p>
+                            <p class="testimonials_swiper_item_name" >Jackson Wang</p>
+                            <p class="testimonials_swiper_item_purpose" >Family visit on the 18th, April 2021</p>
+                        </div>
+                    <!-- testimonial item End -->
+                </div>
+                <div class="swiper-slide">
+                    <!-- testimonial item Start -->
+                        <div class="testimonials_swiper_item" >
+                            <p class="testimonials_swiper_item_parag" >A fantastic visit aAn esperience that makes the elders and the youth happy
+                                and satisfied. Such amazing scenes which contain sculptures that look so
+                                real than nature. I totally recommande</p>
+                            <p class="testimonials_swiper_item_name" >Jackson Wang</p>
+                            <p class="testimonials_swiper_item_purpose" >Family visit on the 18th, April 2021</p>
+                        </div>
+                    <!-- testimonial item End -->
+                </div>
+                <div class="swiper-slide">
+                    <!-- testimonial item Start -->
+                        <div class="testimonials_swiper_item" >
+                            <p class="testimonials_swiper_item_parag" >A fantastic visit aAn esperience that makes the elders and the youth happy
+                                and satisfied. Such amazing scenes which contain sculptures that look so
+                                real than nature. I totally recommande</p>
+                            <p class="testimonials_swiper_item_name" >Jackson Wang</p>
+                            <p class="testimonials_swiper_item_purpose" >Family visit on the 18th, April 2021</p>
+                        </div>
+                    <!-- testimonial item End -->
+                </div>
+                </div>
+                <!-- If we need pagination -->
+                <div class="swiper-pagination"></div>
+            
+                <!-- If we need navigation buttons -->
+                <div class="swiper-button-prev swiper-button-prev-testimonial"></div>
+                <div class="swiper-button-next swiper-button-next-testimonial"></div>
+                <!-- If we need scrollbar -->
+                <!-- <div class="swiper-scrollbar"></div> -->
+            </div>
+        <!-- Slider main container End-->
+    </div>
+</div>
+<!-- Testimonial End -->
+<!-- Video -->
+<div class="about_video" >
+    <div class="row" >
+        <img src="./assets/about/IMG_2251.png" alt="video" />
+        <div class="play_btn" >
+            <img src="./assets/icons/play-button1.png" alt="play" />
+            <img src="./assets/icons/" alt="pause" style="display: none;" />
+        </div>
+    </div>
+</div>
+<!-- Video -->
+<!-- History Start -->
+<div class="history" >
+    <div class="title_section" >
+        <p>History of the museum</p>
+        <div class="title_section_style" >
+            <div class="title_section_line title_section_line_sec21" >
+                <hr>
+            </div>
+            <div class="title_section_center" >
+                <h2>View our history</h2>
+            </div>
+            <div class="title_section_line title_section_line_sec22" >
+                <hr>
+            </div>
+        </div>
+    </div>
+    <div class="history_parag" >
+        <p>Originally DAR KHADIJA is a Traditional House acquired by a son to give it to 
+            his mother Khadija. The Museum offers   and stages the history of the city of 
+            Hammamet and the   Cap-Bon region    through    centuries and civilizations. </p>
+    </div>
+    <div class="history_content" >
+        <div class="row" >
+            <div class="col-md-6 col-sm-12 history_content_left" >
+                <div class="history_content_image history_content_image1" >
+                    <img src="./assets/images/IMG_2496_1.png" alt="img" />
+                </div>
+                <div class="history_content_parag_date_left" >
+                    <p>2008</p>
+                    <hr>
+                    <div class="history_content_parag_date_circle" >
+                    </div>
+                </div>
+                <div class="history_content_parag history_content_parag2" data-aos="fade-up" data-aos-duration="1000">
+                    <p class="history_content_parag_action" >Moving in</p>
+                    <p class="history_content_parag_title" >The opening</p>
+                    <p class="history_content_parag_parag" >After the death of his mother, the son transformed The
+                        Three-story House into a Museum in memory of his
+                        mother. And it was on March 18, 2008, that the DAR
+                        KHADIJA MUSEUM opened its doors to the public to
+                        exhibit stagings that illustrate and highlight Tunisian
+                        Heritage.</p>
+                    <p class="history_content_parag_parag" >After the death of his mother, the son transformed The
+                        Three-story House into a Museum in memory of his
+                        mother. And it was on March 18, 2008, that the DAR
+                        KHADIJA MUSEUM opened its doors to the public to
+                        exhibit stagings that illustrate and highlight Tunisian
+                        Heritage.</p>
+                </div>
+                
+            </div>
+            <div class="col-md-6 col-sm-12 history_content_right" >
+                <div class="history_content_parag_date_right" >
+                    <div class="history_content_parag_date_circle" >
+                    </div>
+                    <hr>
+                    <p>2007</p>
+                </div>
+                <div class="history_content_parag" data-aos="fade-up" data-aos-duration="1000">
+                    <p class="history_content_parag_action" >History of the museum</p>
+                    <p class="history_content_parag_title" >The idea</p>
+                    <p class="history_content_parag_parag" >Originally DAR KHADIJA is a Traditional House acquired
+                        by a son to give it to his mother Khadija. The Museum
+                        offers and stages the history of the city of Hammamet
+                        and the Cap-Bon region through centuries and
+                        civilizations.</p>
+                    <p class="history_content_parag_parag" >Originally DAR KHADIJA is a Traditional House acquired
+                        by a son to give it to his mother Khadija. The Museum
+                        offers and stages the history of the city of Hammamet
+                        and the Cap-Bon region through centuries and
+                        civilizations.</p>
+                </div>
+                <div class="history_content_image history_content_image2" >
+                    <img src="./assets/images/IMG_2184.png" alt="img" />
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="history_content history_content2" >
+        <div class="row" >
+            <div class="col-md-6 col-sm-12 history_content_left" >
+                <div class="history_content_image history_content_image1" >
+                    <img src="./assets/about/alicia-steels-PA2rnR4pF9A-unsp.png" alt="img" />
+                </div>
+                <div class="history_content_parag_date_left" >
+                    <p>2021</p>
+                    <hr>
+                    <div class="history_content_parag_date_circle" >
+                    </div>
+                </div>
+                <div class="history_content_parag history_content_parag2" data-aos="fade-up" data-aos-duration="1000">
+                    <p class="history_content_parag_action" >Upcoming projects</p>
+                    <p class="history_content_parag_title" >Nowadays</p>
+                    <p class="history_content_parag_parag" >We're working hard right now to grow our Community,
+                        our visitors and to be opened to the world. We're looking
+                        forward to see you here in our museum and prsent in
+                        our events. We'd be happy to see you joining us. W're
+                        working in so many new different projects and without
+                        you we won't move forward.</p>
+                    <p class="history_content_parag_parag" >So many different events are coming , from workshops
+                        to classes to ramadan events we have so many creative
+                        ideas to show you. you'll just have to come and enjoy 
+                        your time at Dar Khadija Museum. You're most Welcome
+                        in our Community. Let's meet there and talk more about
+                        Cap-Bon and Hammamet. Our story is interesting .</p>
+                </div>
+                
+            </div>
+            <div class="col-md-6 col-sm-12 history_content_right" >
+                <div class="history_content_parag_date_right" >
+                    <div class="history_content_parag_date_circle" >
+                    </div>
+                    <hr>
+                    <p>2009</p>
+                </div>
+                <div class="history_content_parag" data-aos="fade-up" data-aos-duration="1000">
+                    <p class="history_content_parag_action" >Opening day</p>
+                    <p class="history_content_parag_title" >events</p>
+                    <p class="history_content_parag_parag" >The first event in the museum was incredible. It was 
+                        such a nice day. Many people came to see our museum
+                        from tourists to tunisians to celebrities. we welcomed
+                        them warmly. The Creator of the scenes was around 
+                        as well he showed them some of his skills .</p>
+                    <p class="history_content_parag_parag" >After receiving many good feedbacks , we were working
+                        harder on promoting our museum and showing it to 
+                        the world. We're Always working hard to be opened to 
+                        the world and Welcome many tourist and people 
+                        from anywhere and at any time.</p>
+                </div>
+                <div class="history_content_image history_content_image2" >
+                    <img src="./assets/about/IMG_2477.png" alt="img" />
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- History End -->
+</div>
+<!-- About us -->
+<!-- Footer Start -->
+    <div class="footer" >
+        <div class="row">
+            <div class="col-lg-3 col-md-6 col-sm-12 footer_section footer_1" >
+                <img src="./assets//images/logo_dark.png" alt="logo" />
+                <p>Address: Mohamed BOUSLAMA<br> street 8050 Hammamet<br> Medina,Tunisia</p>
+                <p>Phone: +216 29 315 319</p>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12 footer_section footer_2" >
+                <h2>Museum info</h2>
+                <div>
+                    <p>Visit us</p>
+                    <p>Events</p>
+                    <p>Learn</p>
+                    <p>Shop</p>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12 footer_section footer_3" >
+                <h2>Opening hours</h2>
+                <div>
+                    <p>Tue-Thu: 9AM-7PM</p>
+                    <p>Fri-Sat: 9AM-5PM</p>
+                    <p>Sun: 9AM-12PM</p>
+                    <p>Mon: closed</p>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12 footer_section footer_4" >
+                <h2>Follow us</h2>
+                <div>
+                    <img src="./assets/icons/facebook.png" alt="facebook" />
+                    <img src="./assets/icons/instagram.png" alt="instagram" />
+                    <img src="./assets/icons/twitter.png" alt="twitter" />
+                    <img src="./assets/images/ID15-156510_white-patreon-logo.png" alt="pateron" />
+                </div>
+            </div>
+        </div>
+        <div class="row" >
+            <p class="last_text" >© 2021 Musée Dar Khadija. All rights reserved.</p>
+        </div>
+    </div>
+<!-- Footer End -->
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.min.js" integrity="sha384-lpyLfhYuitXl2zRZ5Bn2fqnhNAKOAaM/0Kr9laMspuaMiZfGmfwRNFh8HlMy49eQ" crossorigin="anonymous"></script>
+<script src="./assets/js/swiper-bundle.min.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init();
+    const swiper_testimonial = new Swiper('.swiper-container-testimonial', {
+        // Optional parameters
+        slidesPerView: 1,
+        // spaceBetween: 30,
+        loop: true,
+
+        // If we need pagination
+        pagination: {
+            el: '.swiper-pagination',
+        },
+
+        // Navigation arrows
+        navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
+        },
+
+        // And if we need scrollbar
+        scrollbar: {
+            el: '.swiper-scrollbar',
+        },
+    });
+</script>
+</body>
+</html>

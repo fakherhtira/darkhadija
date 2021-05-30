@@ -1407,11 +1407,13 @@ body{
     color: #D18F4E;
     font-size: 30px;
     font-weight: 400;
+    font-family: Dolce;
 }
 .history_content_parag_title {
     color: #6F080C;
     font-size: 50px;
     font-weight: 500;
+    font-family: Dolce;
 }
 .history_content_parag_parag{
     color: #404343;
